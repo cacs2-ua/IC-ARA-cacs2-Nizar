@@ -3,7 +3,7 @@
 #include <math.h>
 #include <sys/resource.h>
 
-// g++ `Magick++-config --cxxflags --cppflags`  retroImaging.cpp `Magick++-config --ldflags --libs -o retro`
+// g++ `Magick++-config --cxxflags --cppflags`  retroImaging.cpp `Magick++-config --ldflags --libs` -o retro
 
 using namespace std;
 using namespace Magick;
