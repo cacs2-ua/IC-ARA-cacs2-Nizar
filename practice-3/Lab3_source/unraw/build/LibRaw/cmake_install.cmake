@@ -1,4 +1,4 @@
-# Install script for directory: /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw
+# Install script for directory: /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DUSE_JPEG -DUSE_JPEG8 -DUSE_ZLIB -Draw_r_EXPORTS
 
-CXX_INCLUDES = -I/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/LibRaw -I/home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw -I/usr/include/opencv4
+CXX_INCLUDES = -I/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/LibRaw -I/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw -I/usr/include/opencv4
 
 CXX_FLAGS =  -fopenmp -fPIC -fopenmp
 

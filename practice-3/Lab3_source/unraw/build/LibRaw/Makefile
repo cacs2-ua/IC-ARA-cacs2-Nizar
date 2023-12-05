@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/crislt/UA/IC/Prac3/Lab3_source/unraw
+CMAKE_SOURCE_DIR = /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build
+CMAKE_BINARY_DIR = /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/CMakeFiles /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/LibRaw//CMakeFiles/progress.marks
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/CMakeFiles 0
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/CMakeFiles /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/LibRaw//CMakeFiles/progress.marks
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/clean
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,23 +103,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/preinstall
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/preinstall
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -P /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -P /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 LibRaw/CMakeFiles/raw.dir/rule:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/CMakeFiles/raw.dir/rule
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/CMakeFiles/raw.dir/rule
 .PHONY : LibRaw/CMakeFiles/raw.dir/rule
 
 # Convenience name for target.
@@ -128,12 +128,12 @@ raw: LibRaw/CMakeFiles/raw.dir/rule
 
 # fast build rule for target.
 raw/fast:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/build
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/build
 .PHONY : raw/fast
 
 # Convenience name for target.
 LibRaw/CMakeFiles/raw_r.dir/rule:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/CMakeFiles/raw_r.dir/rule
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibRaw/CMakeFiles/raw_r.dir/rule
 .PHONY : LibRaw/CMakeFiles/raw_r.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ raw_r: LibRaw/CMakeFiles/raw_r.dir/rule
 
 # fast build rule for target.
 raw_r/fast:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/build
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/build
 .PHONY : raw_r/fast
 
 src/decoders/canon_600.o: src/decoders/canon_600.cpp.o
@@ -150,8 +150,8 @@ src/decoders/canon_600.o: src/decoders/canon_600.cpp.o
 
 # target to build an object file
 src/decoders/canon_600.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/canon_600.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/canon_600.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/canon_600.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/canon_600.cpp.o
 .PHONY : src/decoders/canon_600.cpp.o
 
 src/decoders/canon_600.i: src/decoders/canon_600.cpp.i
@@ -159,8 +159,8 @@ src/decoders/canon_600.i: src/decoders/canon_600.cpp.i
 
 # target to preprocess a source file
 src/decoders/canon_600.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/canon_600.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/canon_600.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/canon_600.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/canon_600.cpp.i
 .PHONY : src/decoders/canon_600.cpp.i
 
 src/decoders/canon_600.s: src/decoders/canon_600.cpp.s
@@ -168,8 +168,8 @@ src/decoders/canon_600.s: src/decoders/canon_600.cpp.s
 
 # target to generate assembly for a file
 src/decoders/canon_600.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/canon_600.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/canon_600.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/canon_600.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/canon_600.cpp.s
 .PHONY : src/decoders/canon_600.cpp.s
 
 src/decoders/crx.o: src/decoders/crx.cpp.o
@@ -177,8 +177,8 @@ src/decoders/crx.o: src/decoders/crx.cpp.o
 
 # target to build an object file
 src/decoders/crx.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/crx.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/crx.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/crx.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/crx.cpp.o
 .PHONY : src/decoders/crx.cpp.o
 
 src/decoders/crx.i: src/decoders/crx.cpp.i
@@ -186,8 +186,8 @@ src/decoders/crx.i: src/decoders/crx.cpp.i
 
 # target to preprocess a source file
 src/decoders/crx.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/crx.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/crx.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/crx.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/crx.cpp.i
 .PHONY : src/decoders/crx.cpp.i
 
 src/decoders/crx.s: src/decoders/crx.cpp.s
@@ -195,8 +195,8 @@ src/decoders/crx.s: src/decoders/crx.cpp.s
 
 # target to generate assembly for a file
 src/decoders/crx.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/crx.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/crx.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/crx.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/crx.cpp.s
 .PHONY : src/decoders/crx.cpp.s
 
 src/decoders/decoders_dcraw.o: src/decoders/decoders_dcraw.cpp.o
@@ -204,8 +204,8 @@ src/decoders/decoders_dcraw.o: src/decoders/decoders_dcraw.cpp.o
 
 # target to build an object file
 src/decoders/decoders_dcraw.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_dcraw.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_dcraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_dcraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_dcraw.cpp.o
 .PHONY : src/decoders/decoders_dcraw.cpp.o
 
 src/decoders/decoders_dcraw.i: src/decoders/decoders_dcraw.cpp.i
@@ -213,8 +213,8 @@ src/decoders/decoders_dcraw.i: src/decoders/decoders_dcraw.cpp.i
 
 # target to preprocess a source file
 src/decoders/decoders_dcraw.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_dcraw.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_dcraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_dcraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_dcraw.cpp.i
 .PHONY : src/decoders/decoders_dcraw.cpp.i
 
 src/decoders/decoders_dcraw.s: src/decoders/decoders_dcraw.cpp.s
@@ -222,8 +222,8 @@ src/decoders/decoders_dcraw.s: src/decoders/decoders_dcraw.cpp.s
 
 # target to generate assembly for a file
 src/decoders/decoders_dcraw.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_dcraw.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_dcraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_dcraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_dcraw.cpp.s
 .PHONY : src/decoders/decoders_dcraw.cpp.s
 
 src/decoders/decoders_libraw.o: src/decoders/decoders_libraw.cpp.o
@@ -231,8 +231,8 @@ src/decoders/decoders_libraw.o: src/decoders/decoders_libraw.cpp.o
 
 # target to build an object file
 src/decoders/decoders_libraw.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw.cpp.o
 .PHONY : src/decoders/decoders_libraw.cpp.o
 
 src/decoders/decoders_libraw.i: src/decoders/decoders_libraw.cpp.i
@@ -240,8 +240,8 @@ src/decoders/decoders_libraw.i: src/decoders/decoders_libraw.cpp.i
 
 # target to preprocess a source file
 src/decoders/decoders_libraw.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw.cpp.i
 .PHONY : src/decoders/decoders_libraw.cpp.i
 
 src/decoders/decoders_libraw.s: src/decoders/decoders_libraw.cpp.s
@@ -249,8 +249,8 @@ src/decoders/decoders_libraw.s: src/decoders/decoders_libraw.cpp.s
 
 # target to generate assembly for a file
 src/decoders/decoders_libraw.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw.cpp.s
 .PHONY : src/decoders/decoders_libraw.cpp.s
 
 src/decoders/decoders_libraw_dcrdefs.o: src/decoders/decoders_libraw_dcrdefs.cpp.o
@@ -258,8 +258,8 @@ src/decoders/decoders_libraw_dcrdefs.o: src/decoders/decoders_libraw_dcrdefs.cpp
 
 # target to build an object file
 src/decoders/decoders_libraw_dcrdefs.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw_dcrdefs.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw_dcrdefs.cpp.o
 .PHONY : src/decoders/decoders_libraw_dcrdefs.cpp.o
 
 src/decoders/decoders_libraw_dcrdefs.i: src/decoders/decoders_libraw_dcrdefs.cpp.i
@@ -267,8 +267,8 @@ src/decoders/decoders_libraw_dcrdefs.i: src/decoders/decoders_libraw_dcrdefs.cpp
 
 # target to preprocess a source file
 src/decoders/decoders_libraw_dcrdefs.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw_dcrdefs.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw_dcrdefs.cpp.i
 .PHONY : src/decoders/decoders_libraw_dcrdefs.cpp.i
 
 src/decoders/decoders_libraw_dcrdefs.s: src/decoders/decoders_libraw_dcrdefs.cpp.s
@@ -276,8 +276,8 @@ src/decoders/decoders_libraw_dcrdefs.s: src/decoders/decoders_libraw_dcrdefs.cpp
 
 # target to generate assembly for a file
 src/decoders/decoders_libraw_dcrdefs.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw_dcrdefs.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/decoders_libraw_dcrdefs.cpp.s
 .PHONY : src/decoders/decoders_libraw_dcrdefs.cpp.s
 
 src/decoders/dng.o: src/decoders/dng.cpp.o
@@ -285,8 +285,8 @@ src/decoders/dng.o: src/decoders/dng.cpp.o
 
 # target to build an object file
 src/decoders/dng.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/dng.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/dng.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/dng.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/dng.cpp.o
 .PHONY : src/decoders/dng.cpp.o
 
 src/decoders/dng.i: src/decoders/dng.cpp.i
@@ -294,8 +294,8 @@ src/decoders/dng.i: src/decoders/dng.cpp.i
 
 # target to preprocess a source file
 src/decoders/dng.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/dng.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/dng.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/dng.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/dng.cpp.i
 .PHONY : src/decoders/dng.cpp.i
 
 src/decoders/dng.s: src/decoders/dng.cpp.s
@@ -303,8 +303,8 @@ src/decoders/dng.s: src/decoders/dng.cpp.s
 
 # target to generate assembly for a file
 src/decoders/dng.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/dng.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/dng.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/dng.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/dng.cpp.s
 .PHONY : src/decoders/dng.cpp.s
 
 src/decoders/fp_dng.o: src/decoders/fp_dng.cpp.o
@@ -312,8 +312,8 @@ src/decoders/fp_dng.o: src/decoders/fp_dng.cpp.o
 
 # target to build an object file
 src/decoders/fp_dng.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fp_dng.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fp_dng.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fp_dng.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fp_dng.cpp.o
 .PHONY : src/decoders/fp_dng.cpp.o
 
 src/decoders/fp_dng.i: src/decoders/fp_dng.cpp.i
@@ -321,8 +321,8 @@ src/decoders/fp_dng.i: src/decoders/fp_dng.cpp.i
 
 # target to preprocess a source file
 src/decoders/fp_dng.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fp_dng.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fp_dng.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fp_dng.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fp_dng.cpp.i
 .PHONY : src/decoders/fp_dng.cpp.i
 
 src/decoders/fp_dng.s: src/decoders/fp_dng.cpp.s
@@ -330,8 +330,8 @@ src/decoders/fp_dng.s: src/decoders/fp_dng.cpp.s
 
 # target to generate assembly for a file
 src/decoders/fp_dng.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fp_dng.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fp_dng.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fp_dng.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fp_dng.cpp.s
 .PHONY : src/decoders/fp_dng.cpp.s
 
 src/decoders/fuji_compressed.o: src/decoders/fuji_compressed.cpp.o
@@ -339,8 +339,8 @@ src/decoders/fuji_compressed.o: src/decoders/fuji_compressed.cpp.o
 
 # target to build an object file
 src/decoders/fuji_compressed.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fuji_compressed.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fuji_compressed.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fuji_compressed.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fuji_compressed.cpp.o
 .PHONY : src/decoders/fuji_compressed.cpp.o
 
 src/decoders/fuji_compressed.i: src/decoders/fuji_compressed.cpp.i
@@ -348,8 +348,8 @@ src/decoders/fuji_compressed.i: src/decoders/fuji_compressed.cpp.i
 
 # target to preprocess a source file
 src/decoders/fuji_compressed.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fuji_compressed.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fuji_compressed.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fuji_compressed.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fuji_compressed.cpp.i
 .PHONY : src/decoders/fuji_compressed.cpp.i
 
 src/decoders/fuji_compressed.s: src/decoders/fuji_compressed.cpp.s
@@ -357,8 +357,8 @@ src/decoders/fuji_compressed.s: src/decoders/fuji_compressed.cpp.s
 
 # target to generate assembly for a file
 src/decoders/fuji_compressed.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fuji_compressed.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fuji_compressed.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/fuji_compressed.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/fuji_compressed.cpp.s
 .PHONY : src/decoders/fuji_compressed.cpp.s
 
 src/decoders/generic.o: src/decoders/generic.cpp.o
@@ -366,8 +366,8 @@ src/decoders/generic.o: src/decoders/generic.cpp.o
 
 # target to build an object file
 src/decoders/generic.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/generic.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/generic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/generic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/generic.cpp.o
 .PHONY : src/decoders/generic.cpp.o
 
 src/decoders/generic.i: src/decoders/generic.cpp.i
@@ -375,8 +375,8 @@ src/decoders/generic.i: src/decoders/generic.cpp.i
 
 # target to preprocess a source file
 src/decoders/generic.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/generic.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/generic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/generic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/generic.cpp.i
 .PHONY : src/decoders/generic.cpp.i
 
 src/decoders/generic.s: src/decoders/generic.cpp.s
@@ -384,8 +384,8 @@ src/decoders/generic.s: src/decoders/generic.cpp.s
 
 # target to generate assembly for a file
 src/decoders/generic.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/generic.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/generic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/generic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/generic.cpp.s
 .PHONY : src/decoders/generic.cpp.s
 
 src/decoders/kodak_decoders.o: src/decoders/kodak_decoders.cpp.o
@@ -393,8 +393,8 @@ src/decoders/kodak_decoders.o: src/decoders/kodak_decoders.cpp.o
 
 # target to build an object file
 src/decoders/kodak_decoders.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/kodak_decoders.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/kodak_decoders.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/kodak_decoders.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/kodak_decoders.cpp.o
 .PHONY : src/decoders/kodak_decoders.cpp.o
 
 src/decoders/kodak_decoders.i: src/decoders/kodak_decoders.cpp.i
@@ -402,8 +402,8 @@ src/decoders/kodak_decoders.i: src/decoders/kodak_decoders.cpp.i
 
 # target to preprocess a source file
 src/decoders/kodak_decoders.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/kodak_decoders.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/kodak_decoders.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/kodak_decoders.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/kodak_decoders.cpp.i
 .PHONY : src/decoders/kodak_decoders.cpp.i
 
 src/decoders/kodak_decoders.s: src/decoders/kodak_decoders.cpp.s
@@ -411,8 +411,8 @@ src/decoders/kodak_decoders.s: src/decoders/kodak_decoders.cpp.s
 
 # target to generate assembly for a file
 src/decoders/kodak_decoders.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/kodak_decoders.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/kodak_decoders.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/kodak_decoders.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/kodak_decoders.cpp.s
 .PHONY : src/decoders/kodak_decoders.cpp.s
 
 src/decoders/load_mfbacks.o: src/decoders/load_mfbacks.cpp.o
@@ -420,8 +420,8 @@ src/decoders/load_mfbacks.o: src/decoders/load_mfbacks.cpp.o
 
 # target to build an object file
 src/decoders/load_mfbacks.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/load_mfbacks.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/load_mfbacks.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/load_mfbacks.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/load_mfbacks.cpp.o
 .PHONY : src/decoders/load_mfbacks.cpp.o
 
 src/decoders/load_mfbacks.i: src/decoders/load_mfbacks.cpp.i
@@ -429,8 +429,8 @@ src/decoders/load_mfbacks.i: src/decoders/load_mfbacks.cpp.i
 
 # target to preprocess a source file
 src/decoders/load_mfbacks.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/load_mfbacks.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/load_mfbacks.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/load_mfbacks.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/load_mfbacks.cpp.i
 .PHONY : src/decoders/load_mfbacks.cpp.i
 
 src/decoders/load_mfbacks.s: src/decoders/load_mfbacks.cpp.s
@@ -438,8 +438,8 @@ src/decoders/load_mfbacks.s: src/decoders/load_mfbacks.cpp.s
 
 # target to generate assembly for a file
 src/decoders/load_mfbacks.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/load_mfbacks.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/load_mfbacks.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/load_mfbacks.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/load_mfbacks.cpp.s
 .PHONY : src/decoders/load_mfbacks.cpp.s
 
 src/decoders/smal.o: src/decoders/smal.cpp.o
@@ -447,8 +447,8 @@ src/decoders/smal.o: src/decoders/smal.cpp.o
 
 # target to build an object file
 src/decoders/smal.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/smal.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/smal.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/smal.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/smal.cpp.o
 .PHONY : src/decoders/smal.cpp.o
 
 src/decoders/smal.i: src/decoders/smal.cpp.i
@@ -456,8 +456,8 @@ src/decoders/smal.i: src/decoders/smal.cpp.i
 
 # target to preprocess a source file
 src/decoders/smal.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/smal.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/smal.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/smal.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/smal.cpp.i
 .PHONY : src/decoders/smal.cpp.i
 
 src/decoders/smal.s: src/decoders/smal.cpp.s
@@ -465,8 +465,8 @@ src/decoders/smal.s: src/decoders/smal.cpp.s
 
 # target to generate assembly for a file
 src/decoders/smal.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/smal.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/smal.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/smal.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/smal.cpp.s
 .PHONY : src/decoders/smal.cpp.s
 
 src/decoders/unpack.o: src/decoders/unpack.cpp.o
@@ -474,8 +474,8 @@ src/decoders/unpack.o: src/decoders/unpack.cpp.o
 
 # target to build an object file
 src/decoders/unpack.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack.cpp.o
 .PHONY : src/decoders/unpack.cpp.o
 
 src/decoders/unpack.i: src/decoders/unpack.cpp.i
@@ -483,8 +483,8 @@ src/decoders/unpack.i: src/decoders/unpack.cpp.i
 
 # target to preprocess a source file
 src/decoders/unpack.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack.cpp.i
 .PHONY : src/decoders/unpack.cpp.i
 
 src/decoders/unpack.s: src/decoders/unpack.cpp.s
@@ -492,8 +492,8 @@ src/decoders/unpack.s: src/decoders/unpack.cpp.s
 
 # target to generate assembly for a file
 src/decoders/unpack.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack.cpp.s
 .PHONY : src/decoders/unpack.cpp.s
 
 src/decoders/unpack_thumb.o: src/decoders/unpack_thumb.cpp.o
@@ -501,8 +501,8 @@ src/decoders/unpack_thumb.o: src/decoders/unpack_thumb.cpp.o
 
 # target to build an object file
 src/decoders/unpack_thumb.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack_thumb.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack_thumb.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack_thumb.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack_thumb.cpp.o
 .PHONY : src/decoders/unpack_thumb.cpp.o
 
 src/decoders/unpack_thumb.i: src/decoders/unpack_thumb.cpp.i
@@ -510,8 +510,8 @@ src/decoders/unpack_thumb.i: src/decoders/unpack_thumb.cpp.i
 
 # target to preprocess a source file
 src/decoders/unpack_thumb.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack_thumb.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack_thumb.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack_thumb.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack_thumb.cpp.i
 .PHONY : src/decoders/unpack_thumb.cpp.i
 
 src/decoders/unpack_thumb.s: src/decoders/unpack_thumb.cpp.s
@@ -519,8 +519,8 @@ src/decoders/unpack_thumb.s: src/decoders/unpack_thumb.cpp.s
 
 # target to generate assembly for a file
 src/decoders/unpack_thumb.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack_thumb.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack_thumb.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/decoders/unpack_thumb.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/decoders/unpack_thumb.cpp.s
 .PHONY : src/decoders/unpack_thumb.cpp.s
 
 src/demosaic/aahd_demosaic.o: src/demosaic/aahd_demosaic.cpp.o
@@ -528,8 +528,8 @@ src/demosaic/aahd_demosaic.o: src/demosaic/aahd_demosaic.cpp.o
 
 # target to build an object file
 src/demosaic/aahd_demosaic.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/aahd_demosaic.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/aahd_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/aahd_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/aahd_demosaic.cpp.o
 .PHONY : src/demosaic/aahd_demosaic.cpp.o
 
 src/demosaic/aahd_demosaic.i: src/demosaic/aahd_demosaic.cpp.i
@@ -537,8 +537,8 @@ src/demosaic/aahd_demosaic.i: src/demosaic/aahd_demosaic.cpp.i
 
 # target to preprocess a source file
 src/demosaic/aahd_demosaic.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/aahd_demosaic.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/aahd_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/aahd_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/aahd_demosaic.cpp.i
 .PHONY : src/demosaic/aahd_demosaic.cpp.i
 
 src/demosaic/aahd_demosaic.s: src/demosaic/aahd_demosaic.cpp.s
@@ -546,8 +546,8 @@ src/demosaic/aahd_demosaic.s: src/demosaic/aahd_demosaic.cpp.s
 
 # target to generate assembly for a file
 src/demosaic/aahd_demosaic.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/aahd_demosaic.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/aahd_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/aahd_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/aahd_demosaic.cpp.s
 .PHONY : src/demosaic/aahd_demosaic.cpp.s
 
 src/demosaic/ahd_demosaic.o: src/demosaic/ahd_demosaic.cpp.o
@@ -555,8 +555,8 @@ src/demosaic/ahd_demosaic.o: src/demosaic/ahd_demosaic.cpp.o
 
 # target to build an object file
 src/demosaic/ahd_demosaic.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/ahd_demosaic.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/ahd_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/ahd_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/ahd_demosaic.cpp.o
 .PHONY : src/demosaic/ahd_demosaic.cpp.o
 
 src/demosaic/ahd_demosaic.i: src/demosaic/ahd_demosaic.cpp.i
@@ -564,8 +564,8 @@ src/demosaic/ahd_demosaic.i: src/demosaic/ahd_demosaic.cpp.i
 
 # target to preprocess a source file
 src/demosaic/ahd_demosaic.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/ahd_demosaic.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/ahd_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/ahd_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/ahd_demosaic.cpp.i
 .PHONY : src/demosaic/ahd_demosaic.cpp.i
 
 src/demosaic/ahd_demosaic.s: src/demosaic/ahd_demosaic.cpp.s
@@ -573,8 +573,8 @@ src/demosaic/ahd_demosaic.s: src/demosaic/ahd_demosaic.cpp.s
 
 # target to generate assembly for a file
 src/demosaic/ahd_demosaic.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/ahd_demosaic.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/ahd_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/ahd_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/ahd_demosaic.cpp.s
 .PHONY : src/demosaic/ahd_demosaic.cpp.s
 
 src/demosaic/dcb_demosaic.o: src/demosaic/dcb_demosaic.cpp.o
@@ -582,8 +582,8 @@ src/demosaic/dcb_demosaic.o: src/demosaic/dcb_demosaic.cpp.o
 
 # target to build an object file
 src/demosaic/dcb_demosaic.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dcb_demosaic.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dcb_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dcb_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dcb_demosaic.cpp.o
 .PHONY : src/demosaic/dcb_demosaic.cpp.o
 
 src/demosaic/dcb_demosaic.i: src/demosaic/dcb_demosaic.cpp.i
@@ -591,8 +591,8 @@ src/demosaic/dcb_demosaic.i: src/demosaic/dcb_demosaic.cpp.i
 
 # target to preprocess a source file
 src/demosaic/dcb_demosaic.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dcb_demosaic.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dcb_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dcb_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dcb_demosaic.cpp.i
 .PHONY : src/demosaic/dcb_demosaic.cpp.i
 
 src/demosaic/dcb_demosaic.s: src/demosaic/dcb_demosaic.cpp.s
@@ -600,8 +600,8 @@ src/demosaic/dcb_demosaic.s: src/demosaic/dcb_demosaic.cpp.s
 
 # target to generate assembly for a file
 src/demosaic/dcb_demosaic.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dcb_demosaic.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dcb_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dcb_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dcb_demosaic.cpp.s
 .PHONY : src/demosaic/dcb_demosaic.cpp.s
 
 src/demosaic/dht_demosaic.o: src/demosaic/dht_demosaic.cpp.o
@@ -609,8 +609,8 @@ src/demosaic/dht_demosaic.o: src/demosaic/dht_demosaic.cpp.o
 
 # target to build an object file
 src/demosaic/dht_demosaic.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dht_demosaic.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dht_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dht_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dht_demosaic.cpp.o
 .PHONY : src/demosaic/dht_demosaic.cpp.o
 
 src/demosaic/dht_demosaic.i: src/demosaic/dht_demosaic.cpp.i
@@ -618,8 +618,8 @@ src/demosaic/dht_demosaic.i: src/demosaic/dht_demosaic.cpp.i
 
 # target to preprocess a source file
 src/demosaic/dht_demosaic.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dht_demosaic.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dht_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dht_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dht_demosaic.cpp.i
 .PHONY : src/demosaic/dht_demosaic.cpp.i
 
 src/demosaic/dht_demosaic.s: src/demosaic/dht_demosaic.cpp.s
@@ -627,8 +627,8 @@ src/demosaic/dht_demosaic.s: src/demosaic/dht_demosaic.cpp.s
 
 # target to generate assembly for a file
 src/demosaic/dht_demosaic.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dht_demosaic.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dht_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/dht_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/dht_demosaic.cpp.s
 .PHONY : src/demosaic/dht_demosaic.cpp.s
 
 src/demosaic/misc_demosaic.o: src/demosaic/misc_demosaic.cpp.o
@@ -636,8 +636,8 @@ src/demosaic/misc_demosaic.o: src/demosaic/misc_demosaic.cpp.o
 
 # target to build an object file
 src/demosaic/misc_demosaic.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/misc_demosaic.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/misc_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/misc_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/misc_demosaic.cpp.o
 .PHONY : src/demosaic/misc_demosaic.cpp.o
 
 src/demosaic/misc_demosaic.i: src/demosaic/misc_demosaic.cpp.i
@@ -645,8 +645,8 @@ src/demosaic/misc_demosaic.i: src/demosaic/misc_demosaic.cpp.i
 
 # target to preprocess a source file
 src/demosaic/misc_demosaic.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/misc_demosaic.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/misc_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/misc_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/misc_demosaic.cpp.i
 .PHONY : src/demosaic/misc_demosaic.cpp.i
 
 src/demosaic/misc_demosaic.s: src/demosaic/misc_demosaic.cpp.s
@@ -654,8 +654,8 @@ src/demosaic/misc_demosaic.s: src/demosaic/misc_demosaic.cpp.s
 
 # target to generate assembly for a file
 src/demosaic/misc_demosaic.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/misc_demosaic.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/misc_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/misc_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/misc_demosaic.cpp.s
 .PHONY : src/demosaic/misc_demosaic.cpp.s
 
 src/demosaic/xtrans_demosaic.o: src/demosaic/xtrans_demosaic.cpp.o
@@ -663,8 +663,8 @@ src/demosaic/xtrans_demosaic.o: src/demosaic/xtrans_demosaic.cpp.o
 
 # target to build an object file
 src/demosaic/xtrans_demosaic.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/xtrans_demosaic.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/xtrans_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/xtrans_demosaic.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/xtrans_demosaic.cpp.o
 .PHONY : src/demosaic/xtrans_demosaic.cpp.o
 
 src/demosaic/xtrans_demosaic.i: src/demosaic/xtrans_demosaic.cpp.i
@@ -672,8 +672,8 @@ src/demosaic/xtrans_demosaic.i: src/demosaic/xtrans_demosaic.cpp.i
 
 # target to preprocess a source file
 src/demosaic/xtrans_demosaic.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/xtrans_demosaic.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/xtrans_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/xtrans_demosaic.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/xtrans_demosaic.cpp.i
 .PHONY : src/demosaic/xtrans_demosaic.cpp.i
 
 src/demosaic/xtrans_demosaic.s: src/demosaic/xtrans_demosaic.cpp.s
@@ -681,8 +681,8 @@ src/demosaic/xtrans_demosaic.s: src/demosaic/xtrans_demosaic.cpp.s
 
 # target to generate assembly for a file
 src/demosaic/xtrans_demosaic.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/xtrans_demosaic.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/xtrans_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/demosaic/xtrans_demosaic.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/demosaic/xtrans_demosaic.cpp.s
 .PHONY : src/demosaic/xtrans_demosaic.cpp.s
 
 src/integration/dngsdk_glue.o: src/integration/dngsdk_glue.cpp.o
@@ -690,8 +690,8 @@ src/integration/dngsdk_glue.o: src/integration/dngsdk_glue.cpp.o
 
 # target to build an object file
 src/integration/dngsdk_glue.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/dngsdk_glue.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/dngsdk_glue.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/dngsdk_glue.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/dngsdk_glue.cpp.o
 .PHONY : src/integration/dngsdk_glue.cpp.o
 
 src/integration/dngsdk_glue.i: src/integration/dngsdk_glue.cpp.i
@@ -699,8 +699,8 @@ src/integration/dngsdk_glue.i: src/integration/dngsdk_glue.cpp.i
 
 # target to preprocess a source file
 src/integration/dngsdk_glue.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/dngsdk_glue.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/dngsdk_glue.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/dngsdk_glue.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/dngsdk_glue.cpp.i
 .PHONY : src/integration/dngsdk_glue.cpp.i
 
 src/integration/dngsdk_glue.s: src/integration/dngsdk_glue.cpp.s
@@ -708,8 +708,8 @@ src/integration/dngsdk_glue.s: src/integration/dngsdk_glue.cpp.s
 
 # target to generate assembly for a file
 src/integration/dngsdk_glue.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/dngsdk_glue.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/dngsdk_glue.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/dngsdk_glue.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/dngsdk_glue.cpp.s
 .PHONY : src/integration/dngsdk_glue.cpp.s
 
 src/integration/rawspeed_glue.o: src/integration/rawspeed_glue.cpp.o
@@ -717,8 +717,8 @@ src/integration/rawspeed_glue.o: src/integration/rawspeed_glue.cpp.o
 
 # target to build an object file
 src/integration/rawspeed_glue.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/rawspeed_glue.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/rawspeed_glue.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/rawspeed_glue.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/rawspeed_glue.cpp.o
 .PHONY : src/integration/rawspeed_glue.cpp.o
 
 src/integration/rawspeed_glue.i: src/integration/rawspeed_glue.cpp.i
@@ -726,8 +726,8 @@ src/integration/rawspeed_glue.i: src/integration/rawspeed_glue.cpp.i
 
 # target to preprocess a source file
 src/integration/rawspeed_glue.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/rawspeed_glue.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/rawspeed_glue.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/rawspeed_glue.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/rawspeed_glue.cpp.i
 .PHONY : src/integration/rawspeed_glue.cpp.i
 
 src/integration/rawspeed_glue.s: src/integration/rawspeed_glue.cpp.s
@@ -735,8 +735,8 @@ src/integration/rawspeed_glue.s: src/integration/rawspeed_glue.cpp.s
 
 # target to generate assembly for a file
 src/integration/rawspeed_glue.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/rawspeed_glue.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/rawspeed_glue.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/integration/rawspeed_glue.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/integration/rawspeed_glue.cpp.s
 .PHONY : src/integration/rawspeed_glue.cpp.s
 
 src/libraw_c_api.o: src/libraw_c_api.cpp.o
@@ -744,8 +744,8 @@ src/libraw_c_api.o: src/libraw_c_api.cpp.o
 
 # target to build an object file
 src/libraw_c_api.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_c_api.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_c_api.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_c_api.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_c_api.cpp.o
 .PHONY : src/libraw_c_api.cpp.o
 
 src/libraw_c_api.i: src/libraw_c_api.cpp.i
@@ -753,8 +753,8 @@ src/libraw_c_api.i: src/libraw_c_api.cpp.i
 
 # target to preprocess a source file
 src/libraw_c_api.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_c_api.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_c_api.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_c_api.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_c_api.cpp.i
 .PHONY : src/libraw_c_api.cpp.i
 
 src/libraw_c_api.s: src/libraw_c_api.cpp.s
@@ -762,8 +762,8 @@ src/libraw_c_api.s: src/libraw_c_api.cpp.s
 
 # target to generate assembly for a file
 src/libraw_c_api.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_c_api.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_c_api.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_c_api.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_c_api.cpp.s
 .PHONY : src/libraw_c_api.cpp.s
 
 src/libraw_datastream.o: src/libraw_datastream.cpp.o
@@ -771,8 +771,8 @@ src/libraw_datastream.o: src/libraw_datastream.cpp.o
 
 # target to build an object file
 src/libraw_datastream.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_datastream.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_datastream.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_datastream.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_datastream.cpp.o
 .PHONY : src/libraw_datastream.cpp.o
 
 src/libraw_datastream.i: src/libraw_datastream.cpp.i
@@ -780,8 +780,8 @@ src/libraw_datastream.i: src/libraw_datastream.cpp.i
 
 # target to preprocess a source file
 src/libraw_datastream.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_datastream.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_datastream.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_datastream.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_datastream.cpp.i
 .PHONY : src/libraw_datastream.cpp.i
 
 src/libraw_datastream.s: src/libraw_datastream.cpp.s
@@ -789,8 +789,8 @@ src/libraw_datastream.s: src/libraw_datastream.cpp.s
 
 # target to generate assembly for a file
 src/libraw_datastream.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_datastream.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_datastream.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/libraw_datastream.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/libraw_datastream.cpp.s
 .PHONY : src/libraw_datastream.cpp.s
 
 src/metadata/adobepano.o: src/metadata/adobepano.cpp.o
@@ -798,8 +798,8 @@ src/metadata/adobepano.o: src/metadata/adobepano.cpp.o
 
 # target to build an object file
 src/metadata/adobepano.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/adobepano.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/adobepano.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/adobepano.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/adobepano.cpp.o
 .PHONY : src/metadata/adobepano.cpp.o
 
 src/metadata/adobepano.i: src/metadata/adobepano.cpp.i
@@ -807,8 +807,8 @@ src/metadata/adobepano.i: src/metadata/adobepano.cpp.i
 
 # target to preprocess a source file
 src/metadata/adobepano.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/adobepano.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/adobepano.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/adobepano.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/adobepano.cpp.i
 .PHONY : src/metadata/adobepano.cpp.i
 
 src/metadata/adobepano.s: src/metadata/adobepano.cpp.s
@@ -816,8 +816,8 @@ src/metadata/adobepano.s: src/metadata/adobepano.cpp.s
 
 # target to generate assembly for a file
 src/metadata/adobepano.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/adobepano.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/adobepano.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/adobepano.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/adobepano.cpp.s
 .PHONY : src/metadata/adobepano.cpp.s
 
 src/metadata/canon.o: src/metadata/canon.cpp.o
@@ -825,8 +825,8 @@ src/metadata/canon.o: src/metadata/canon.cpp.o
 
 # target to build an object file
 src/metadata/canon.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/canon.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/canon.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/canon.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/canon.cpp.o
 .PHONY : src/metadata/canon.cpp.o
 
 src/metadata/canon.i: src/metadata/canon.cpp.i
@@ -834,8 +834,8 @@ src/metadata/canon.i: src/metadata/canon.cpp.i
 
 # target to preprocess a source file
 src/metadata/canon.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/canon.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/canon.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/canon.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/canon.cpp.i
 .PHONY : src/metadata/canon.cpp.i
 
 src/metadata/canon.s: src/metadata/canon.cpp.s
@@ -843,8 +843,8 @@ src/metadata/canon.s: src/metadata/canon.cpp.s
 
 # target to generate assembly for a file
 src/metadata/canon.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/canon.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/canon.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/canon.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/canon.cpp.s
 .PHONY : src/metadata/canon.cpp.s
 
 src/metadata/ciff.o: src/metadata/ciff.cpp.o
@@ -852,8 +852,8 @@ src/metadata/ciff.o: src/metadata/ciff.cpp.o
 
 # target to build an object file
 src/metadata/ciff.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/ciff.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/ciff.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/ciff.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/ciff.cpp.o
 .PHONY : src/metadata/ciff.cpp.o
 
 src/metadata/ciff.i: src/metadata/ciff.cpp.i
@@ -861,8 +861,8 @@ src/metadata/ciff.i: src/metadata/ciff.cpp.i
 
 # target to preprocess a source file
 src/metadata/ciff.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/ciff.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/ciff.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/ciff.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/ciff.cpp.i
 .PHONY : src/metadata/ciff.cpp.i
 
 src/metadata/ciff.s: src/metadata/ciff.cpp.s
@@ -870,8 +870,8 @@ src/metadata/ciff.s: src/metadata/ciff.cpp.s
 
 # target to generate assembly for a file
 src/metadata/ciff.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/ciff.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/ciff.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/ciff.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/ciff.cpp.s
 .PHONY : src/metadata/ciff.cpp.s
 
 src/metadata/cr3_parser.o: src/metadata/cr3_parser.cpp.o
@@ -879,8 +879,8 @@ src/metadata/cr3_parser.o: src/metadata/cr3_parser.cpp.o
 
 # target to build an object file
 src/metadata/cr3_parser.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/cr3_parser.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/cr3_parser.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/cr3_parser.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/cr3_parser.cpp.o
 .PHONY : src/metadata/cr3_parser.cpp.o
 
 src/metadata/cr3_parser.i: src/metadata/cr3_parser.cpp.i
@@ -888,8 +888,8 @@ src/metadata/cr3_parser.i: src/metadata/cr3_parser.cpp.i
 
 # target to preprocess a source file
 src/metadata/cr3_parser.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/cr3_parser.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/cr3_parser.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/cr3_parser.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/cr3_parser.cpp.i
 .PHONY : src/metadata/cr3_parser.cpp.i
 
 src/metadata/cr3_parser.s: src/metadata/cr3_parser.cpp.s
@@ -897,8 +897,8 @@ src/metadata/cr3_parser.s: src/metadata/cr3_parser.cpp.s
 
 # target to generate assembly for a file
 src/metadata/cr3_parser.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/cr3_parser.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/cr3_parser.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/cr3_parser.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/cr3_parser.cpp.s
 .PHONY : src/metadata/cr3_parser.cpp.s
 
 src/metadata/epson.o: src/metadata/epson.cpp.o
@@ -906,8 +906,8 @@ src/metadata/epson.o: src/metadata/epson.cpp.o
 
 # target to build an object file
 src/metadata/epson.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/epson.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/epson.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/epson.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/epson.cpp.o
 .PHONY : src/metadata/epson.cpp.o
 
 src/metadata/epson.i: src/metadata/epson.cpp.i
@@ -915,8 +915,8 @@ src/metadata/epson.i: src/metadata/epson.cpp.i
 
 # target to preprocess a source file
 src/metadata/epson.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/epson.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/epson.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/epson.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/epson.cpp.i
 .PHONY : src/metadata/epson.cpp.i
 
 src/metadata/epson.s: src/metadata/epson.cpp.s
@@ -924,8 +924,8 @@ src/metadata/epson.s: src/metadata/epson.cpp.s
 
 # target to generate assembly for a file
 src/metadata/epson.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/epson.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/epson.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/epson.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/epson.cpp.s
 .PHONY : src/metadata/epson.cpp.s
 
 src/metadata/exif_gps.o: src/metadata/exif_gps.cpp.o
@@ -933,8 +933,8 @@ src/metadata/exif_gps.o: src/metadata/exif_gps.cpp.o
 
 # target to build an object file
 src/metadata/exif_gps.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/exif_gps.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/exif_gps.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/exif_gps.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/exif_gps.cpp.o
 .PHONY : src/metadata/exif_gps.cpp.o
 
 src/metadata/exif_gps.i: src/metadata/exif_gps.cpp.i
@@ -942,8 +942,8 @@ src/metadata/exif_gps.i: src/metadata/exif_gps.cpp.i
 
 # target to preprocess a source file
 src/metadata/exif_gps.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/exif_gps.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/exif_gps.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/exif_gps.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/exif_gps.cpp.i
 .PHONY : src/metadata/exif_gps.cpp.i
 
 src/metadata/exif_gps.s: src/metadata/exif_gps.cpp.s
@@ -951,8 +951,8 @@ src/metadata/exif_gps.s: src/metadata/exif_gps.cpp.s
 
 # target to generate assembly for a file
 src/metadata/exif_gps.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/exif_gps.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/exif_gps.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/exif_gps.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/exif_gps.cpp.s
 .PHONY : src/metadata/exif_gps.cpp.s
 
 src/metadata/fuji.o: src/metadata/fuji.cpp.o
@@ -960,8 +960,8 @@ src/metadata/fuji.o: src/metadata/fuji.cpp.o
 
 # target to build an object file
 src/metadata/fuji.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/fuji.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/fuji.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/fuji.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/fuji.cpp.o
 .PHONY : src/metadata/fuji.cpp.o
 
 src/metadata/fuji.i: src/metadata/fuji.cpp.i
@@ -969,8 +969,8 @@ src/metadata/fuji.i: src/metadata/fuji.cpp.i
 
 # target to preprocess a source file
 src/metadata/fuji.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/fuji.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/fuji.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/fuji.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/fuji.cpp.i
 .PHONY : src/metadata/fuji.cpp.i
 
 src/metadata/fuji.s: src/metadata/fuji.cpp.s
@@ -978,8 +978,8 @@ src/metadata/fuji.s: src/metadata/fuji.cpp.s
 
 # target to generate assembly for a file
 src/metadata/fuji.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/fuji.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/fuji.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/fuji.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/fuji.cpp.s
 .PHONY : src/metadata/fuji.cpp.s
 
 src/metadata/hasselblad_model.o: src/metadata/hasselblad_model.cpp.o
@@ -987,8 +987,8 @@ src/metadata/hasselblad_model.o: src/metadata/hasselblad_model.cpp.o
 
 # target to build an object file
 src/metadata/hasselblad_model.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/hasselblad_model.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/hasselblad_model.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/hasselblad_model.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/hasselblad_model.cpp.o
 .PHONY : src/metadata/hasselblad_model.cpp.o
 
 src/metadata/hasselblad_model.i: src/metadata/hasselblad_model.cpp.i
@@ -996,8 +996,8 @@ src/metadata/hasselblad_model.i: src/metadata/hasselblad_model.cpp.i
 
 # target to preprocess a source file
 src/metadata/hasselblad_model.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/hasselblad_model.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/hasselblad_model.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/hasselblad_model.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/hasselblad_model.cpp.i
 .PHONY : src/metadata/hasselblad_model.cpp.i
 
 src/metadata/hasselblad_model.s: src/metadata/hasselblad_model.cpp.s
@@ -1005,8 +1005,8 @@ src/metadata/hasselblad_model.s: src/metadata/hasselblad_model.cpp.s
 
 # target to generate assembly for a file
 src/metadata/hasselblad_model.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/hasselblad_model.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/hasselblad_model.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/hasselblad_model.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/hasselblad_model.cpp.s
 .PHONY : src/metadata/hasselblad_model.cpp.s
 
 src/metadata/identify.o: src/metadata/identify.cpp.o
@@ -1014,8 +1014,8 @@ src/metadata/identify.o: src/metadata/identify.cpp.o
 
 # target to build an object file
 src/metadata/identify.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify.cpp.o
 .PHONY : src/metadata/identify.cpp.o
 
 src/metadata/identify.i: src/metadata/identify.cpp.i
@@ -1023,8 +1023,8 @@ src/metadata/identify.i: src/metadata/identify.cpp.i
 
 # target to preprocess a source file
 src/metadata/identify.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify.cpp.i
 .PHONY : src/metadata/identify.cpp.i
 
 src/metadata/identify.s: src/metadata/identify.cpp.s
@@ -1032,8 +1032,8 @@ src/metadata/identify.s: src/metadata/identify.cpp.s
 
 # target to generate assembly for a file
 src/metadata/identify.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify.cpp.s
 .PHONY : src/metadata/identify.cpp.s
 
 src/metadata/identify_tools.o: src/metadata/identify_tools.cpp.o
@@ -1041,8 +1041,8 @@ src/metadata/identify_tools.o: src/metadata/identify_tools.cpp.o
 
 # target to build an object file
 src/metadata/identify_tools.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify_tools.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify_tools.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify_tools.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify_tools.cpp.o
 .PHONY : src/metadata/identify_tools.cpp.o
 
 src/metadata/identify_tools.i: src/metadata/identify_tools.cpp.i
@@ -1050,8 +1050,8 @@ src/metadata/identify_tools.i: src/metadata/identify_tools.cpp.i
 
 # target to preprocess a source file
 src/metadata/identify_tools.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify_tools.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify_tools.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify_tools.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify_tools.cpp.i
 .PHONY : src/metadata/identify_tools.cpp.i
 
 src/metadata/identify_tools.s: src/metadata/identify_tools.cpp.s
@@ -1059,8 +1059,8 @@ src/metadata/identify_tools.s: src/metadata/identify_tools.cpp.s
 
 # target to generate assembly for a file
 src/metadata/identify_tools.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify_tools.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify_tools.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/identify_tools.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/identify_tools.cpp.s
 .PHONY : src/metadata/identify_tools.cpp.s
 
 src/metadata/kodak.o: src/metadata/kodak.cpp.o
@@ -1068,8 +1068,8 @@ src/metadata/kodak.o: src/metadata/kodak.cpp.o
 
 # target to build an object file
 src/metadata/kodak.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/kodak.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/kodak.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/kodak.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/kodak.cpp.o
 .PHONY : src/metadata/kodak.cpp.o
 
 src/metadata/kodak.i: src/metadata/kodak.cpp.i
@@ -1077,8 +1077,8 @@ src/metadata/kodak.i: src/metadata/kodak.cpp.i
 
 # target to preprocess a source file
 src/metadata/kodak.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/kodak.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/kodak.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/kodak.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/kodak.cpp.i
 .PHONY : src/metadata/kodak.cpp.i
 
 src/metadata/kodak.s: src/metadata/kodak.cpp.s
@@ -1086,8 +1086,8 @@ src/metadata/kodak.s: src/metadata/kodak.cpp.s
 
 # target to generate assembly for a file
 src/metadata/kodak.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/kodak.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/kodak.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/kodak.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/kodak.cpp.s
 .PHONY : src/metadata/kodak.cpp.s
 
 src/metadata/leica.o: src/metadata/leica.cpp.o
@@ -1095,8 +1095,8 @@ src/metadata/leica.o: src/metadata/leica.cpp.o
 
 # target to build an object file
 src/metadata/leica.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/leica.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/leica.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/leica.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/leica.cpp.o
 .PHONY : src/metadata/leica.cpp.o
 
 src/metadata/leica.i: src/metadata/leica.cpp.i
@@ -1104,8 +1104,8 @@ src/metadata/leica.i: src/metadata/leica.cpp.i
 
 # target to preprocess a source file
 src/metadata/leica.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/leica.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/leica.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/leica.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/leica.cpp.i
 .PHONY : src/metadata/leica.cpp.i
 
 src/metadata/leica.s: src/metadata/leica.cpp.s
@@ -1113,8 +1113,8 @@ src/metadata/leica.s: src/metadata/leica.cpp.s
 
 # target to generate assembly for a file
 src/metadata/leica.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/leica.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/leica.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/leica.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/leica.cpp.s
 .PHONY : src/metadata/leica.cpp.s
 
 src/metadata/makernotes.o: src/metadata/makernotes.cpp.o
@@ -1122,8 +1122,8 @@ src/metadata/makernotes.o: src/metadata/makernotes.cpp.o
 
 # target to build an object file
 src/metadata/makernotes.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/makernotes.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/makernotes.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/makernotes.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/makernotes.cpp.o
 .PHONY : src/metadata/makernotes.cpp.o
 
 src/metadata/makernotes.i: src/metadata/makernotes.cpp.i
@@ -1131,8 +1131,8 @@ src/metadata/makernotes.i: src/metadata/makernotes.cpp.i
 
 # target to preprocess a source file
 src/metadata/makernotes.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/makernotes.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/makernotes.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/makernotes.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/makernotes.cpp.i
 .PHONY : src/metadata/makernotes.cpp.i
 
 src/metadata/makernotes.s: src/metadata/makernotes.cpp.s
@@ -1140,8 +1140,8 @@ src/metadata/makernotes.s: src/metadata/makernotes.cpp.s
 
 # target to generate assembly for a file
 src/metadata/makernotes.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/makernotes.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/makernotes.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/makernotes.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/makernotes.cpp.s
 .PHONY : src/metadata/makernotes.cpp.s
 
 src/metadata/mediumformat.o: src/metadata/mediumformat.cpp.o
@@ -1149,8 +1149,8 @@ src/metadata/mediumformat.o: src/metadata/mediumformat.cpp.o
 
 # target to build an object file
 src/metadata/mediumformat.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/mediumformat.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/mediumformat.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/mediumformat.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/mediumformat.cpp.o
 .PHONY : src/metadata/mediumformat.cpp.o
 
 src/metadata/mediumformat.i: src/metadata/mediumformat.cpp.i
@@ -1158,8 +1158,8 @@ src/metadata/mediumformat.i: src/metadata/mediumformat.cpp.i
 
 # target to preprocess a source file
 src/metadata/mediumformat.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/mediumformat.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/mediumformat.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/mediumformat.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/mediumformat.cpp.i
 .PHONY : src/metadata/mediumformat.cpp.i
 
 src/metadata/mediumformat.s: src/metadata/mediumformat.cpp.s
@@ -1167,8 +1167,8 @@ src/metadata/mediumformat.s: src/metadata/mediumformat.cpp.s
 
 # target to generate assembly for a file
 src/metadata/mediumformat.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/mediumformat.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/mediumformat.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/mediumformat.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/mediumformat.cpp.s
 .PHONY : src/metadata/mediumformat.cpp.s
 
 src/metadata/minolta.o: src/metadata/minolta.cpp.o
@@ -1176,8 +1176,8 @@ src/metadata/minolta.o: src/metadata/minolta.cpp.o
 
 # target to build an object file
 src/metadata/minolta.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/minolta.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/minolta.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/minolta.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/minolta.cpp.o
 .PHONY : src/metadata/minolta.cpp.o
 
 src/metadata/minolta.i: src/metadata/minolta.cpp.i
@@ -1185,8 +1185,8 @@ src/metadata/minolta.i: src/metadata/minolta.cpp.i
 
 # target to preprocess a source file
 src/metadata/minolta.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/minolta.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/minolta.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/minolta.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/minolta.cpp.i
 .PHONY : src/metadata/minolta.cpp.i
 
 src/metadata/minolta.s: src/metadata/minolta.cpp.s
@@ -1194,8 +1194,8 @@ src/metadata/minolta.s: src/metadata/minolta.cpp.s
 
 # target to generate assembly for a file
 src/metadata/minolta.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/minolta.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/minolta.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/minolta.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/minolta.cpp.s
 .PHONY : src/metadata/minolta.cpp.s
 
 src/metadata/misc_parsers.o: src/metadata/misc_parsers.cpp.o
@@ -1203,8 +1203,8 @@ src/metadata/misc_parsers.o: src/metadata/misc_parsers.cpp.o
 
 # target to build an object file
 src/metadata/misc_parsers.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/misc_parsers.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/misc_parsers.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/misc_parsers.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/misc_parsers.cpp.o
 .PHONY : src/metadata/misc_parsers.cpp.o
 
 src/metadata/misc_parsers.i: src/metadata/misc_parsers.cpp.i
@@ -1212,8 +1212,8 @@ src/metadata/misc_parsers.i: src/metadata/misc_parsers.cpp.i
 
 # target to preprocess a source file
 src/metadata/misc_parsers.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/misc_parsers.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/misc_parsers.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/misc_parsers.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/misc_parsers.cpp.i
 .PHONY : src/metadata/misc_parsers.cpp.i
 
 src/metadata/misc_parsers.s: src/metadata/misc_parsers.cpp.s
@@ -1221,8 +1221,8 @@ src/metadata/misc_parsers.s: src/metadata/misc_parsers.cpp.s
 
 # target to generate assembly for a file
 src/metadata/misc_parsers.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/misc_parsers.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/misc_parsers.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/misc_parsers.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/misc_parsers.cpp.s
 .PHONY : src/metadata/misc_parsers.cpp.s
 
 src/metadata/nikon.o: src/metadata/nikon.cpp.o
@@ -1230,8 +1230,8 @@ src/metadata/nikon.o: src/metadata/nikon.cpp.o
 
 # target to build an object file
 src/metadata/nikon.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/nikon.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/nikon.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/nikon.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/nikon.cpp.o
 .PHONY : src/metadata/nikon.cpp.o
 
 src/metadata/nikon.i: src/metadata/nikon.cpp.i
@@ -1239,8 +1239,8 @@ src/metadata/nikon.i: src/metadata/nikon.cpp.i
 
 # target to preprocess a source file
 src/metadata/nikon.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/nikon.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/nikon.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/nikon.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/nikon.cpp.i
 .PHONY : src/metadata/nikon.cpp.i
 
 src/metadata/nikon.s: src/metadata/nikon.cpp.s
@@ -1248,8 +1248,8 @@ src/metadata/nikon.s: src/metadata/nikon.cpp.s
 
 # target to generate assembly for a file
 src/metadata/nikon.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/nikon.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/nikon.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/nikon.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/nikon.cpp.s
 .PHONY : src/metadata/nikon.cpp.s
 
 src/metadata/normalize_model.o: src/metadata/normalize_model.cpp.o
@@ -1257,8 +1257,8 @@ src/metadata/normalize_model.o: src/metadata/normalize_model.cpp.o
 
 # target to build an object file
 src/metadata/normalize_model.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/normalize_model.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/normalize_model.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/normalize_model.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/normalize_model.cpp.o
 .PHONY : src/metadata/normalize_model.cpp.o
 
 src/metadata/normalize_model.i: src/metadata/normalize_model.cpp.i
@@ -1266,8 +1266,8 @@ src/metadata/normalize_model.i: src/metadata/normalize_model.cpp.i
 
 # target to preprocess a source file
 src/metadata/normalize_model.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/normalize_model.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/normalize_model.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/normalize_model.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/normalize_model.cpp.i
 .PHONY : src/metadata/normalize_model.cpp.i
 
 src/metadata/normalize_model.s: src/metadata/normalize_model.cpp.s
@@ -1275,8 +1275,8 @@ src/metadata/normalize_model.s: src/metadata/normalize_model.cpp.s
 
 # target to generate assembly for a file
 src/metadata/normalize_model.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/normalize_model.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/normalize_model.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/normalize_model.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/normalize_model.cpp.s
 .PHONY : src/metadata/normalize_model.cpp.s
 
 src/metadata/olympus.o: src/metadata/olympus.cpp.o
@@ -1284,8 +1284,8 @@ src/metadata/olympus.o: src/metadata/olympus.cpp.o
 
 # target to build an object file
 src/metadata/olympus.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/olympus.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/olympus.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/olympus.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/olympus.cpp.o
 .PHONY : src/metadata/olympus.cpp.o
 
 src/metadata/olympus.i: src/metadata/olympus.cpp.i
@@ -1293,8 +1293,8 @@ src/metadata/olympus.i: src/metadata/olympus.cpp.i
 
 # target to preprocess a source file
 src/metadata/olympus.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/olympus.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/olympus.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/olympus.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/olympus.cpp.i
 .PHONY : src/metadata/olympus.cpp.i
 
 src/metadata/olympus.s: src/metadata/olympus.cpp.s
@@ -1302,8 +1302,8 @@ src/metadata/olympus.s: src/metadata/olympus.cpp.s
 
 # target to generate assembly for a file
 src/metadata/olympus.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/olympus.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/olympus.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/olympus.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/olympus.cpp.s
 .PHONY : src/metadata/olympus.cpp.s
 
 src/metadata/p1.o: src/metadata/p1.cpp.o
@@ -1311,8 +1311,8 @@ src/metadata/p1.o: src/metadata/p1.cpp.o
 
 # target to build an object file
 src/metadata/p1.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/p1.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/p1.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/p1.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/p1.cpp.o
 .PHONY : src/metadata/p1.cpp.o
 
 src/metadata/p1.i: src/metadata/p1.cpp.i
@@ -1320,8 +1320,8 @@ src/metadata/p1.i: src/metadata/p1.cpp.i
 
 # target to preprocess a source file
 src/metadata/p1.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/p1.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/p1.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/p1.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/p1.cpp.i
 .PHONY : src/metadata/p1.cpp.i
 
 src/metadata/p1.s: src/metadata/p1.cpp.s
@@ -1329,8 +1329,8 @@ src/metadata/p1.s: src/metadata/p1.cpp.s
 
 # target to generate assembly for a file
 src/metadata/p1.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/p1.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/p1.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/p1.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/p1.cpp.s
 .PHONY : src/metadata/p1.cpp.s
 
 src/metadata/pentax.o: src/metadata/pentax.cpp.o
@@ -1338,8 +1338,8 @@ src/metadata/pentax.o: src/metadata/pentax.cpp.o
 
 # target to build an object file
 src/metadata/pentax.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/pentax.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/pentax.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/pentax.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/pentax.cpp.o
 .PHONY : src/metadata/pentax.cpp.o
 
 src/metadata/pentax.i: src/metadata/pentax.cpp.i
@@ -1347,8 +1347,8 @@ src/metadata/pentax.i: src/metadata/pentax.cpp.i
 
 # target to preprocess a source file
 src/metadata/pentax.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/pentax.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/pentax.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/pentax.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/pentax.cpp.i
 .PHONY : src/metadata/pentax.cpp.i
 
 src/metadata/pentax.s: src/metadata/pentax.cpp.s
@@ -1356,8 +1356,8 @@ src/metadata/pentax.s: src/metadata/pentax.cpp.s
 
 # target to generate assembly for a file
 src/metadata/pentax.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/pentax.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/pentax.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/pentax.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/pentax.cpp.s
 .PHONY : src/metadata/pentax.cpp.s
 
 src/metadata/samsung.o: src/metadata/samsung.cpp.o
@@ -1365,8 +1365,8 @@ src/metadata/samsung.o: src/metadata/samsung.cpp.o
 
 # target to build an object file
 src/metadata/samsung.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/samsung.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/samsung.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/samsung.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/samsung.cpp.o
 .PHONY : src/metadata/samsung.cpp.o
 
 src/metadata/samsung.i: src/metadata/samsung.cpp.i
@@ -1374,8 +1374,8 @@ src/metadata/samsung.i: src/metadata/samsung.cpp.i
 
 # target to preprocess a source file
 src/metadata/samsung.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/samsung.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/samsung.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/samsung.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/samsung.cpp.i
 .PHONY : src/metadata/samsung.cpp.i
 
 src/metadata/samsung.s: src/metadata/samsung.cpp.s
@@ -1383,8 +1383,8 @@ src/metadata/samsung.s: src/metadata/samsung.cpp.s
 
 # target to generate assembly for a file
 src/metadata/samsung.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/samsung.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/samsung.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/samsung.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/samsung.cpp.s
 .PHONY : src/metadata/samsung.cpp.s
 
 src/metadata/sony.o: src/metadata/sony.cpp.o
@@ -1392,8 +1392,8 @@ src/metadata/sony.o: src/metadata/sony.cpp.o
 
 # target to build an object file
 src/metadata/sony.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/sony.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/sony.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/sony.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/sony.cpp.o
 .PHONY : src/metadata/sony.cpp.o
 
 src/metadata/sony.i: src/metadata/sony.cpp.i
@@ -1401,8 +1401,8 @@ src/metadata/sony.i: src/metadata/sony.cpp.i
 
 # target to preprocess a source file
 src/metadata/sony.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/sony.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/sony.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/sony.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/sony.cpp.i
 .PHONY : src/metadata/sony.cpp.i
 
 src/metadata/sony.s: src/metadata/sony.cpp.s
@@ -1410,8 +1410,8 @@ src/metadata/sony.s: src/metadata/sony.cpp.s
 
 # target to generate assembly for a file
 src/metadata/sony.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/sony.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/sony.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/sony.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/sony.cpp.s
 .PHONY : src/metadata/sony.cpp.s
 
 src/metadata/tiff.o: src/metadata/tiff.cpp.o
@@ -1419,8 +1419,8 @@ src/metadata/tiff.o: src/metadata/tiff.cpp.o
 
 # target to build an object file
 src/metadata/tiff.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/tiff.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/tiff.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/tiff.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/tiff.cpp.o
 .PHONY : src/metadata/tiff.cpp.o
 
 src/metadata/tiff.i: src/metadata/tiff.cpp.i
@@ -1428,8 +1428,8 @@ src/metadata/tiff.i: src/metadata/tiff.cpp.i
 
 # target to preprocess a source file
 src/metadata/tiff.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/tiff.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/tiff.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/tiff.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/tiff.cpp.i
 .PHONY : src/metadata/tiff.cpp.i
 
 src/metadata/tiff.s: src/metadata/tiff.cpp.s
@@ -1437,8 +1437,8 @@ src/metadata/tiff.s: src/metadata/tiff.cpp.s
 
 # target to generate assembly for a file
 src/metadata/tiff.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/tiff.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/tiff.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/metadata/tiff.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/metadata/tiff.cpp.s
 .PHONY : src/metadata/tiff.cpp.s
 
 src/postprocessing/aspect_ratio.o: src/postprocessing/aspect_ratio.cpp.o
@@ -1446,8 +1446,8 @@ src/postprocessing/aspect_ratio.o: src/postprocessing/aspect_ratio.cpp.o
 
 # target to build an object file
 src/postprocessing/aspect_ratio.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/aspect_ratio.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/aspect_ratio.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/aspect_ratio.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/aspect_ratio.cpp.o
 .PHONY : src/postprocessing/aspect_ratio.cpp.o
 
 src/postprocessing/aspect_ratio.i: src/postprocessing/aspect_ratio.cpp.i
@@ -1455,8 +1455,8 @@ src/postprocessing/aspect_ratio.i: src/postprocessing/aspect_ratio.cpp.i
 
 # target to preprocess a source file
 src/postprocessing/aspect_ratio.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/aspect_ratio.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/aspect_ratio.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/aspect_ratio.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/aspect_ratio.cpp.i
 .PHONY : src/postprocessing/aspect_ratio.cpp.i
 
 src/postprocessing/aspect_ratio.s: src/postprocessing/aspect_ratio.cpp.s
@@ -1464,8 +1464,8 @@ src/postprocessing/aspect_ratio.s: src/postprocessing/aspect_ratio.cpp.s
 
 # target to generate assembly for a file
 src/postprocessing/aspect_ratio.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/aspect_ratio.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/aspect_ratio.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/aspect_ratio.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/aspect_ratio.cpp.s
 .PHONY : src/postprocessing/aspect_ratio.cpp.s
 
 src/postprocessing/dcraw_process.o: src/postprocessing/dcraw_process.cpp.o
@@ -1473,8 +1473,8 @@ src/postprocessing/dcraw_process.o: src/postprocessing/dcraw_process.cpp.o
 
 # target to build an object file
 src/postprocessing/dcraw_process.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/dcraw_process.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/dcraw_process.cpp.o
 .PHONY : src/postprocessing/dcraw_process.cpp.o
 
 src/postprocessing/dcraw_process.i: src/postprocessing/dcraw_process.cpp.i
@@ -1482,8 +1482,8 @@ src/postprocessing/dcraw_process.i: src/postprocessing/dcraw_process.cpp.i
 
 # target to preprocess a source file
 src/postprocessing/dcraw_process.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/dcraw_process.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/dcraw_process.cpp.i
 .PHONY : src/postprocessing/dcraw_process.cpp.i
 
 src/postprocessing/dcraw_process.s: src/postprocessing/dcraw_process.cpp.s
@@ -1491,8 +1491,8 @@ src/postprocessing/dcraw_process.s: src/postprocessing/dcraw_process.cpp.s
 
 # target to generate assembly for a file
 src/postprocessing/dcraw_process.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/dcraw_process.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/dcraw_process.cpp.s
 .PHONY : src/postprocessing/dcraw_process.cpp.s
 
 src/postprocessing/mem_image.o: src/postprocessing/mem_image.cpp.o
@@ -1500,8 +1500,8 @@ src/postprocessing/mem_image.o: src/postprocessing/mem_image.cpp.o
 
 # target to build an object file
 src/postprocessing/mem_image.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/mem_image.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/mem_image.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/mem_image.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/mem_image.cpp.o
 .PHONY : src/postprocessing/mem_image.cpp.o
 
 src/postprocessing/mem_image.i: src/postprocessing/mem_image.cpp.i
@@ -1509,8 +1509,8 @@ src/postprocessing/mem_image.i: src/postprocessing/mem_image.cpp.i
 
 # target to preprocess a source file
 src/postprocessing/mem_image.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/mem_image.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/mem_image.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/mem_image.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/mem_image.cpp.i
 .PHONY : src/postprocessing/mem_image.cpp.i
 
 src/postprocessing/mem_image.s: src/postprocessing/mem_image.cpp.s
@@ -1518,8 +1518,8 @@ src/postprocessing/mem_image.s: src/postprocessing/mem_image.cpp.s
 
 # target to generate assembly for a file
 src/postprocessing/mem_image.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/mem_image.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/mem_image.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/mem_image.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/mem_image.cpp.s
 .PHONY : src/postprocessing/mem_image.cpp.s
 
 src/postprocessing/postprocessing_aux.o: src/postprocessing/postprocessing_aux.cpp.o
@@ -1527,8 +1527,8 @@ src/postprocessing/postprocessing_aux.o: src/postprocessing/postprocessing_aux.c
 
 # target to build an object file
 src/postprocessing/postprocessing_aux.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_aux.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_aux.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_aux.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_aux.cpp.o
 .PHONY : src/postprocessing/postprocessing_aux.cpp.o
 
 src/postprocessing/postprocessing_aux.i: src/postprocessing/postprocessing_aux.cpp.i
@@ -1536,8 +1536,8 @@ src/postprocessing/postprocessing_aux.i: src/postprocessing/postprocessing_aux.c
 
 # target to preprocess a source file
 src/postprocessing/postprocessing_aux.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_aux.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_aux.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_aux.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_aux.cpp.i
 .PHONY : src/postprocessing/postprocessing_aux.cpp.i
 
 src/postprocessing/postprocessing_aux.s: src/postprocessing/postprocessing_aux.cpp.s
@@ -1545,8 +1545,8 @@ src/postprocessing/postprocessing_aux.s: src/postprocessing/postprocessing_aux.c
 
 # target to generate assembly for a file
 src/postprocessing/postprocessing_aux.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_aux.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_aux.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_aux.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_aux.cpp.s
 .PHONY : src/postprocessing/postprocessing_aux.cpp.s
 
 src/postprocessing/postprocessing_utils.o: src/postprocessing/postprocessing_utils.cpp.o
@@ -1554,8 +1554,8 @@ src/postprocessing/postprocessing_utils.o: src/postprocessing/postprocessing_uti
 
 # target to build an object file
 src/postprocessing/postprocessing_utils.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils.cpp.o
 .PHONY : src/postprocessing/postprocessing_utils.cpp.o
 
 src/postprocessing/postprocessing_utils.i: src/postprocessing/postprocessing_utils.cpp.i
@@ -1563,8 +1563,8 @@ src/postprocessing/postprocessing_utils.i: src/postprocessing/postprocessing_uti
 
 # target to preprocess a source file
 src/postprocessing/postprocessing_utils.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils.cpp.i
 .PHONY : src/postprocessing/postprocessing_utils.cpp.i
 
 src/postprocessing/postprocessing_utils.s: src/postprocessing/postprocessing_utils.cpp.s
@@ -1572,8 +1572,8 @@ src/postprocessing/postprocessing_utils.s: src/postprocessing/postprocessing_uti
 
 # target to generate assembly for a file
 src/postprocessing/postprocessing_utils.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils.cpp.s
 .PHONY : src/postprocessing/postprocessing_utils.cpp.s
 
 src/postprocessing/postprocessing_utils_dcrdefs.o: src/postprocessing/postprocessing_utils_dcrdefs.cpp.o
@@ -1581,8 +1581,8 @@ src/postprocessing/postprocessing_utils_dcrdefs.o: src/postprocessing/postproces
 
 # target to build an object file
 src/postprocessing/postprocessing_utils_dcrdefs.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.o
 .PHONY : src/postprocessing/postprocessing_utils_dcrdefs.cpp.o
 
 src/postprocessing/postprocessing_utils_dcrdefs.i: src/postprocessing/postprocessing_utils_dcrdefs.cpp.i
@@ -1590,8 +1590,8 @@ src/postprocessing/postprocessing_utils_dcrdefs.i: src/postprocessing/postproces
 
 # target to preprocess a source file
 src/postprocessing/postprocessing_utils_dcrdefs.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.i
 .PHONY : src/postprocessing/postprocessing_utils_dcrdefs.cpp.i
 
 src/postprocessing/postprocessing_utils_dcrdefs.s: src/postprocessing/postprocessing_utils_dcrdefs.cpp.s
@@ -1599,8 +1599,8 @@ src/postprocessing/postprocessing_utils_dcrdefs.s: src/postprocessing/postproces
 
 # target to generate assembly for a file
 src/postprocessing/postprocessing_utils_dcrdefs.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.s
 .PHONY : src/postprocessing/postprocessing_utils_dcrdefs.cpp.s
 
 src/preprocessing/ext_preprocess.o: src/preprocessing/ext_preprocess.cpp.o
@@ -1608,8 +1608,8 @@ src/preprocessing/ext_preprocess.o: src/preprocessing/ext_preprocess.cpp.o
 
 # target to build an object file
 src/preprocessing/ext_preprocess.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/ext_preprocess.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/ext_preprocess.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/ext_preprocess.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/ext_preprocess.cpp.o
 .PHONY : src/preprocessing/ext_preprocess.cpp.o
 
 src/preprocessing/ext_preprocess.i: src/preprocessing/ext_preprocess.cpp.i
@@ -1617,8 +1617,8 @@ src/preprocessing/ext_preprocess.i: src/preprocessing/ext_preprocess.cpp.i
 
 # target to preprocess a source file
 src/preprocessing/ext_preprocess.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/ext_preprocess.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/ext_preprocess.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/ext_preprocess.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/ext_preprocess.cpp.i
 .PHONY : src/preprocessing/ext_preprocess.cpp.i
 
 src/preprocessing/ext_preprocess.s: src/preprocessing/ext_preprocess.cpp.s
@@ -1626,8 +1626,8 @@ src/preprocessing/ext_preprocess.s: src/preprocessing/ext_preprocess.cpp.s
 
 # target to generate assembly for a file
 src/preprocessing/ext_preprocess.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/ext_preprocess.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/ext_preprocess.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/ext_preprocess.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/ext_preprocess.cpp.s
 .PHONY : src/preprocessing/ext_preprocess.cpp.s
 
 src/preprocessing/raw2image.o: src/preprocessing/raw2image.cpp.o
@@ -1635,8 +1635,8 @@ src/preprocessing/raw2image.o: src/preprocessing/raw2image.cpp.o
 
 # target to build an object file
 src/preprocessing/raw2image.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/raw2image.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/raw2image.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/raw2image.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/raw2image.cpp.o
 .PHONY : src/preprocessing/raw2image.cpp.o
 
 src/preprocessing/raw2image.i: src/preprocessing/raw2image.cpp.i
@@ -1644,8 +1644,8 @@ src/preprocessing/raw2image.i: src/preprocessing/raw2image.cpp.i
 
 # target to preprocess a source file
 src/preprocessing/raw2image.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/raw2image.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/raw2image.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/raw2image.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/raw2image.cpp.i
 .PHONY : src/preprocessing/raw2image.cpp.i
 
 src/preprocessing/raw2image.s: src/preprocessing/raw2image.cpp.s
@@ -1653,8 +1653,8 @@ src/preprocessing/raw2image.s: src/preprocessing/raw2image.cpp.s
 
 # target to generate assembly for a file
 src/preprocessing/raw2image.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/raw2image.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/raw2image.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/raw2image.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/raw2image.cpp.s
 .PHONY : src/preprocessing/raw2image.cpp.s
 
 src/preprocessing/subtract_black.o: src/preprocessing/subtract_black.cpp.o
@@ -1662,8 +1662,8 @@ src/preprocessing/subtract_black.o: src/preprocessing/subtract_black.cpp.o
 
 # target to build an object file
 src/preprocessing/subtract_black.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/subtract_black.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/subtract_black.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/subtract_black.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/subtract_black.cpp.o
 .PHONY : src/preprocessing/subtract_black.cpp.o
 
 src/preprocessing/subtract_black.i: src/preprocessing/subtract_black.cpp.i
@@ -1671,8 +1671,8 @@ src/preprocessing/subtract_black.i: src/preprocessing/subtract_black.cpp.i
 
 # target to preprocess a source file
 src/preprocessing/subtract_black.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/subtract_black.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/subtract_black.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/subtract_black.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/subtract_black.cpp.i
 .PHONY : src/preprocessing/subtract_black.cpp.i
 
 src/preprocessing/subtract_black.s: src/preprocessing/subtract_black.cpp.s
@@ -1680,8 +1680,8 @@ src/preprocessing/subtract_black.s: src/preprocessing/subtract_black.cpp.s
 
 # target to generate assembly for a file
 src/preprocessing/subtract_black.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/subtract_black.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/subtract_black.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/preprocessing/subtract_black.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/preprocessing/subtract_black.cpp.s
 .PHONY : src/preprocessing/subtract_black.cpp.s
 
 src/tables/cameralist.o: src/tables/cameralist.cpp.o
@@ -1689,8 +1689,8 @@ src/tables/cameralist.o: src/tables/cameralist.cpp.o
 
 # target to build an object file
 src/tables/cameralist.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/cameralist.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/cameralist.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/cameralist.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/cameralist.cpp.o
 .PHONY : src/tables/cameralist.cpp.o
 
 src/tables/cameralist.i: src/tables/cameralist.cpp.i
@@ -1698,8 +1698,8 @@ src/tables/cameralist.i: src/tables/cameralist.cpp.i
 
 # target to preprocess a source file
 src/tables/cameralist.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/cameralist.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/cameralist.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/cameralist.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/cameralist.cpp.i
 .PHONY : src/tables/cameralist.cpp.i
 
 src/tables/cameralist.s: src/tables/cameralist.cpp.s
@@ -1707,8 +1707,8 @@ src/tables/cameralist.s: src/tables/cameralist.cpp.s
 
 # target to generate assembly for a file
 src/tables/cameralist.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/cameralist.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/cameralist.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/cameralist.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/cameralist.cpp.s
 .PHONY : src/tables/cameralist.cpp.s
 
 src/tables/colorconst.o: src/tables/colorconst.cpp.o
@@ -1716,8 +1716,8 @@ src/tables/colorconst.o: src/tables/colorconst.cpp.o
 
 # target to build an object file
 src/tables/colorconst.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colorconst.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colorconst.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colorconst.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colorconst.cpp.o
 .PHONY : src/tables/colorconst.cpp.o
 
 src/tables/colorconst.i: src/tables/colorconst.cpp.i
@@ -1725,8 +1725,8 @@ src/tables/colorconst.i: src/tables/colorconst.cpp.i
 
 # target to preprocess a source file
 src/tables/colorconst.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colorconst.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colorconst.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colorconst.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colorconst.cpp.i
 .PHONY : src/tables/colorconst.cpp.i
 
 src/tables/colorconst.s: src/tables/colorconst.cpp.s
@@ -1734,8 +1734,8 @@ src/tables/colorconst.s: src/tables/colorconst.cpp.s
 
 # target to generate assembly for a file
 src/tables/colorconst.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colorconst.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colorconst.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colorconst.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colorconst.cpp.s
 .PHONY : src/tables/colorconst.cpp.s
 
 src/tables/colordata.o: src/tables/colordata.cpp.o
@@ -1743,8 +1743,8 @@ src/tables/colordata.o: src/tables/colordata.cpp.o
 
 # target to build an object file
 src/tables/colordata.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colordata.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colordata.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colordata.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colordata.cpp.o
 .PHONY : src/tables/colordata.cpp.o
 
 src/tables/colordata.i: src/tables/colordata.cpp.i
@@ -1752,8 +1752,8 @@ src/tables/colordata.i: src/tables/colordata.cpp.i
 
 # target to preprocess a source file
 src/tables/colordata.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colordata.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colordata.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colordata.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colordata.cpp.i
 .PHONY : src/tables/colordata.cpp.i
 
 src/tables/colordata.s: src/tables/colordata.cpp.s
@@ -1761,8 +1761,8 @@ src/tables/colordata.s: src/tables/colordata.cpp.s
 
 # target to generate assembly for a file
 src/tables/colordata.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colordata.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colordata.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/colordata.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/colordata.cpp.s
 .PHONY : src/tables/colordata.cpp.s
 
 src/tables/wblists.o: src/tables/wblists.cpp.o
@@ -1770,8 +1770,8 @@ src/tables/wblists.o: src/tables/wblists.cpp.o
 
 # target to build an object file
 src/tables/wblists.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/wblists.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/wblists.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/wblists.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/wblists.cpp.o
 .PHONY : src/tables/wblists.cpp.o
 
 src/tables/wblists.i: src/tables/wblists.cpp.i
@@ -1779,8 +1779,8 @@ src/tables/wblists.i: src/tables/wblists.cpp.i
 
 # target to preprocess a source file
 src/tables/wblists.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/wblists.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/wblists.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/wblists.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/wblists.cpp.i
 .PHONY : src/tables/wblists.cpp.i
 
 src/tables/wblists.s: src/tables/wblists.cpp.s
@@ -1788,8 +1788,8 @@ src/tables/wblists.s: src/tables/wblists.cpp.s
 
 # target to generate assembly for a file
 src/tables/wblists.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/wblists.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/wblists.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/tables/wblists.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/tables/wblists.cpp.s
 .PHONY : src/tables/wblists.cpp.s
 
 src/utils/curves.o: src/utils/curves.cpp.o
@@ -1797,8 +1797,8 @@ src/utils/curves.o: src/utils/curves.cpp.o
 
 # target to build an object file
 src/utils/curves.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/curves.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/curves.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/curves.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/curves.cpp.o
 .PHONY : src/utils/curves.cpp.o
 
 src/utils/curves.i: src/utils/curves.cpp.i
@@ -1806,8 +1806,8 @@ src/utils/curves.i: src/utils/curves.cpp.i
 
 # target to preprocess a source file
 src/utils/curves.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/curves.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/curves.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/curves.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/curves.cpp.i
 .PHONY : src/utils/curves.cpp.i
 
 src/utils/curves.s: src/utils/curves.cpp.s
@@ -1815,8 +1815,8 @@ src/utils/curves.s: src/utils/curves.cpp.s
 
 # target to generate assembly for a file
 src/utils/curves.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/curves.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/curves.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/curves.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/curves.cpp.s
 .PHONY : src/utils/curves.cpp.s
 
 src/utils/decoder_info.o: src/utils/decoder_info.cpp.o
@@ -1824,8 +1824,8 @@ src/utils/decoder_info.o: src/utils/decoder_info.cpp.o
 
 # target to build an object file
 src/utils/decoder_info.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/decoder_info.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/decoder_info.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/decoder_info.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/decoder_info.cpp.o
 .PHONY : src/utils/decoder_info.cpp.o
 
 src/utils/decoder_info.i: src/utils/decoder_info.cpp.i
@@ -1833,8 +1833,8 @@ src/utils/decoder_info.i: src/utils/decoder_info.cpp.i
 
 # target to preprocess a source file
 src/utils/decoder_info.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/decoder_info.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/decoder_info.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/decoder_info.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/decoder_info.cpp.i
 .PHONY : src/utils/decoder_info.cpp.i
 
 src/utils/decoder_info.s: src/utils/decoder_info.cpp.s
@@ -1842,8 +1842,8 @@ src/utils/decoder_info.s: src/utils/decoder_info.cpp.s
 
 # target to generate assembly for a file
 src/utils/decoder_info.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/decoder_info.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/decoder_info.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/decoder_info.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/decoder_info.cpp.s
 .PHONY : src/utils/decoder_info.cpp.s
 
 src/utils/init_close_utils.o: src/utils/init_close_utils.cpp.o
@@ -1851,8 +1851,8 @@ src/utils/init_close_utils.o: src/utils/init_close_utils.cpp.o
 
 # target to build an object file
 src/utils/init_close_utils.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/init_close_utils.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/init_close_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/init_close_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/init_close_utils.cpp.o
 .PHONY : src/utils/init_close_utils.cpp.o
 
 src/utils/init_close_utils.i: src/utils/init_close_utils.cpp.i
@@ -1860,8 +1860,8 @@ src/utils/init_close_utils.i: src/utils/init_close_utils.cpp.i
 
 # target to preprocess a source file
 src/utils/init_close_utils.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/init_close_utils.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/init_close_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/init_close_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/init_close_utils.cpp.i
 .PHONY : src/utils/init_close_utils.cpp.i
 
 src/utils/init_close_utils.s: src/utils/init_close_utils.cpp.s
@@ -1869,8 +1869,8 @@ src/utils/init_close_utils.s: src/utils/init_close_utils.cpp.s
 
 # target to generate assembly for a file
 src/utils/init_close_utils.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/init_close_utils.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/init_close_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/init_close_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/init_close_utils.cpp.s
 .PHONY : src/utils/init_close_utils.cpp.s
 
 src/utils/open.o: src/utils/open.cpp.o
@@ -1878,8 +1878,8 @@ src/utils/open.o: src/utils/open.cpp.o
 
 # target to build an object file
 src/utils/open.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/open.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/open.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/open.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/open.cpp.o
 .PHONY : src/utils/open.cpp.o
 
 src/utils/open.i: src/utils/open.cpp.i
@@ -1887,8 +1887,8 @@ src/utils/open.i: src/utils/open.cpp.i
 
 # target to preprocess a source file
 src/utils/open.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/open.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/open.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/open.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/open.cpp.i
 .PHONY : src/utils/open.cpp.i
 
 src/utils/open.s: src/utils/open.cpp.s
@@ -1896,8 +1896,8 @@ src/utils/open.s: src/utils/open.cpp.s
 
 # target to generate assembly for a file
 src/utils/open.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/open.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/open.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/open.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/open.cpp.s
 .PHONY : src/utils/open.cpp.s
 
 src/utils/phaseone_processing.o: src/utils/phaseone_processing.cpp.o
@@ -1905,8 +1905,8 @@ src/utils/phaseone_processing.o: src/utils/phaseone_processing.cpp.o
 
 # target to build an object file
 src/utils/phaseone_processing.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/phaseone_processing.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/phaseone_processing.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/phaseone_processing.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/phaseone_processing.cpp.o
 .PHONY : src/utils/phaseone_processing.cpp.o
 
 src/utils/phaseone_processing.i: src/utils/phaseone_processing.cpp.i
@@ -1914,8 +1914,8 @@ src/utils/phaseone_processing.i: src/utils/phaseone_processing.cpp.i
 
 # target to preprocess a source file
 src/utils/phaseone_processing.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/phaseone_processing.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/phaseone_processing.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/phaseone_processing.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/phaseone_processing.cpp.i
 .PHONY : src/utils/phaseone_processing.cpp.i
 
 src/utils/phaseone_processing.s: src/utils/phaseone_processing.cpp.s
@@ -1923,8 +1923,8 @@ src/utils/phaseone_processing.s: src/utils/phaseone_processing.cpp.s
 
 # target to generate assembly for a file
 src/utils/phaseone_processing.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/phaseone_processing.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/phaseone_processing.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/phaseone_processing.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/phaseone_processing.cpp.s
 .PHONY : src/utils/phaseone_processing.cpp.s
 
 src/utils/read_utils.o: src/utils/read_utils.cpp.o
@@ -1932,8 +1932,8 @@ src/utils/read_utils.o: src/utils/read_utils.cpp.o
 
 # target to build an object file
 src/utils/read_utils.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/read_utils.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/read_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/read_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/read_utils.cpp.o
 .PHONY : src/utils/read_utils.cpp.o
 
 src/utils/read_utils.i: src/utils/read_utils.cpp.i
@@ -1941,8 +1941,8 @@ src/utils/read_utils.i: src/utils/read_utils.cpp.i
 
 # target to preprocess a source file
 src/utils/read_utils.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/read_utils.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/read_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/read_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/read_utils.cpp.i
 .PHONY : src/utils/read_utils.cpp.i
 
 src/utils/read_utils.s: src/utils/read_utils.cpp.s
@@ -1950,8 +1950,8 @@ src/utils/read_utils.s: src/utils/read_utils.cpp.s
 
 # target to generate assembly for a file
 src/utils/read_utils.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/read_utils.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/read_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/read_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/read_utils.cpp.s
 .PHONY : src/utils/read_utils.cpp.s
 
 src/utils/thumb_utils.o: src/utils/thumb_utils.cpp.o
@@ -1959,8 +1959,8 @@ src/utils/thumb_utils.o: src/utils/thumb_utils.cpp.o
 
 # target to build an object file
 src/utils/thumb_utils.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/thumb_utils.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/thumb_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/thumb_utils.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/thumb_utils.cpp.o
 .PHONY : src/utils/thumb_utils.cpp.o
 
 src/utils/thumb_utils.i: src/utils/thumb_utils.cpp.i
@@ -1968,8 +1968,8 @@ src/utils/thumb_utils.i: src/utils/thumb_utils.cpp.i
 
 # target to preprocess a source file
 src/utils/thumb_utils.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/thumb_utils.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/thumb_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/thumb_utils.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/thumb_utils.cpp.i
 .PHONY : src/utils/thumb_utils.cpp.i
 
 src/utils/thumb_utils.s: src/utils/thumb_utils.cpp.s
@@ -1977,8 +1977,8 @@ src/utils/thumb_utils.s: src/utils/thumb_utils.cpp.s
 
 # target to generate assembly for a file
 src/utils/thumb_utils.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/thumb_utils.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/thumb_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/thumb_utils.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/thumb_utils.cpp.s
 .PHONY : src/utils/thumb_utils.cpp.s
 
 src/utils/utils_dcraw.o: src/utils/utils_dcraw.cpp.o
@@ -1986,8 +1986,8 @@ src/utils/utils_dcraw.o: src/utils/utils_dcraw.cpp.o
 
 # target to build an object file
 src/utils/utils_dcraw.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_dcraw.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_dcraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_dcraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_dcraw.cpp.o
 .PHONY : src/utils/utils_dcraw.cpp.o
 
 src/utils/utils_dcraw.i: src/utils/utils_dcraw.cpp.i
@@ -1995,8 +1995,8 @@ src/utils/utils_dcraw.i: src/utils/utils_dcraw.cpp.i
 
 # target to preprocess a source file
 src/utils/utils_dcraw.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_dcraw.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_dcraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_dcraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_dcraw.cpp.i
 .PHONY : src/utils/utils_dcraw.cpp.i
 
 src/utils/utils_dcraw.s: src/utils/utils_dcraw.cpp.s
@@ -2004,8 +2004,8 @@ src/utils/utils_dcraw.s: src/utils/utils_dcraw.cpp.s
 
 # target to generate assembly for a file
 src/utils/utils_dcraw.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_dcraw.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_dcraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_dcraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_dcraw.cpp.s
 .PHONY : src/utils/utils_dcraw.cpp.s
 
 src/utils/utils_libraw.o: src/utils/utils_libraw.cpp.o
@@ -2013,8 +2013,8 @@ src/utils/utils_libraw.o: src/utils/utils_libraw.cpp.o
 
 # target to build an object file
 src/utils/utils_libraw.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_libraw.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_libraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_libraw.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_libraw.cpp.o
 .PHONY : src/utils/utils_libraw.cpp.o
 
 src/utils/utils_libraw.i: src/utils/utils_libraw.cpp.i
@@ -2022,8 +2022,8 @@ src/utils/utils_libraw.i: src/utils/utils_libraw.cpp.i
 
 # target to preprocess a source file
 src/utils/utils_libraw.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_libraw.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_libraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_libraw.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_libraw.cpp.i
 .PHONY : src/utils/utils_libraw.cpp.i
 
 src/utils/utils_libraw.s: src/utils/utils_libraw.cpp.s
@@ -2031,8 +2031,8 @@ src/utils/utils_libraw.s: src/utils/utils_libraw.cpp.s
 
 # target to generate assembly for a file
 src/utils/utils_libraw.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_libraw.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_libraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/utils/utils_libraw.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/utils/utils_libraw.cpp.s
 .PHONY : src/utils/utils_libraw.cpp.s
 
 src/write/apply_profile.o: src/write/apply_profile.cpp.o
@@ -2040,8 +2040,8 @@ src/write/apply_profile.o: src/write/apply_profile.cpp.o
 
 # target to build an object file
 src/write/apply_profile.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/apply_profile.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/apply_profile.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/apply_profile.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/apply_profile.cpp.o
 .PHONY : src/write/apply_profile.cpp.o
 
 src/write/apply_profile.i: src/write/apply_profile.cpp.i
@@ -2049,8 +2049,8 @@ src/write/apply_profile.i: src/write/apply_profile.cpp.i
 
 # target to preprocess a source file
 src/write/apply_profile.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/apply_profile.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/apply_profile.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/apply_profile.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/apply_profile.cpp.i
 .PHONY : src/write/apply_profile.cpp.i
 
 src/write/apply_profile.s: src/write/apply_profile.cpp.s
@@ -2058,8 +2058,8 @@ src/write/apply_profile.s: src/write/apply_profile.cpp.s
 
 # target to generate assembly for a file
 src/write/apply_profile.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/apply_profile.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/apply_profile.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/apply_profile.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/apply_profile.cpp.s
 .PHONY : src/write/apply_profile.cpp.s
 
 src/write/file_write.o: src/write/file_write.cpp.o
@@ -2067,8 +2067,8 @@ src/write/file_write.o: src/write/file_write.cpp.o
 
 # target to build an object file
 src/write/file_write.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/file_write.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/file_write.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/file_write.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/file_write.cpp.o
 .PHONY : src/write/file_write.cpp.o
 
 src/write/file_write.i: src/write/file_write.cpp.i
@@ -2076,8 +2076,8 @@ src/write/file_write.i: src/write/file_write.cpp.i
 
 # target to preprocess a source file
 src/write/file_write.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/file_write.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/file_write.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/file_write.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/file_write.cpp.i
 .PHONY : src/write/file_write.cpp.i
 
 src/write/file_write.s: src/write/file_write.cpp.s
@@ -2085,8 +2085,8 @@ src/write/file_write.s: src/write/file_write.cpp.s
 
 # target to generate assembly for a file
 src/write/file_write.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/file_write.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/file_write.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/file_write.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/file_write.cpp.s
 .PHONY : src/write/file_write.cpp.s
 
 src/write/tiff_writer.o: src/write/tiff_writer.cpp.o
@@ -2094,8 +2094,8 @@ src/write/tiff_writer.o: src/write/tiff_writer.cpp.o
 
 # target to build an object file
 src/write/tiff_writer.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/tiff_writer.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/tiff_writer.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/tiff_writer.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/tiff_writer.cpp.o
 .PHONY : src/write/tiff_writer.cpp.o
 
 src/write/tiff_writer.i: src/write/tiff_writer.cpp.i
@@ -2103,8 +2103,8 @@ src/write/tiff_writer.i: src/write/tiff_writer.cpp.i
 
 # target to preprocess a source file
 src/write/tiff_writer.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/tiff_writer.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/tiff_writer.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/tiff_writer.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/tiff_writer.cpp.i
 .PHONY : src/write/tiff_writer.cpp.i
 
 src/write/tiff_writer.s: src/write/tiff_writer.cpp.s
@@ -2112,8 +2112,8 @@ src/write/tiff_writer.s: src/write/tiff_writer.cpp.s
 
 # target to generate assembly for a file
 src/write/tiff_writer.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/tiff_writer.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/tiff_writer.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/write/tiff_writer.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/write/tiff_writer.cpp.s
 .PHONY : src/write/tiff_writer.cpp.s
 
 src/x3f/x3f_parse_process.o: src/x3f/x3f_parse_process.cpp.o
@@ -2121,8 +2121,8 @@ src/x3f/x3f_parse_process.o: src/x3f/x3f_parse_process.cpp.o
 
 # target to build an object file
 src/x3f/x3f_parse_process.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_parse_process.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_parse_process.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_parse_process.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_parse_process.cpp.o
 .PHONY : src/x3f/x3f_parse_process.cpp.o
 
 src/x3f/x3f_parse_process.i: src/x3f/x3f_parse_process.cpp.i
@@ -2130,8 +2130,8 @@ src/x3f/x3f_parse_process.i: src/x3f/x3f_parse_process.cpp.i
 
 # target to preprocess a source file
 src/x3f/x3f_parse_process.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_parse_process.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_parse_process.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_parse_process.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_parse_process.cpp.i
 .PHONY : src/x3f/x3f_parse_process.cpp.i
 
 src/x3f/x3f_parse_process.s: src/x3f/x3f_parse_process.cpp.s
@@ -2139,8 +2139,8 @@ src/x3f/x3f_parse_process.s: src/x3f/x3f_parse_process.cpp.s
 
 # target to generate assembly for a file
 src/x3f/x3f_parse_process.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_parse_process.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_parse_process.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_parse_process.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_parse_process.cpp.s
 .PHONY : src/x3f/x3f_parse_process.cpp.s
 
 src/x3f/x3f_utils_patched.o: src/x3f/x3f_utils_patched.cpp.o
@@ -2148,8 +2148,8 @@ src/x3f/x3f_utils_patched.o: src/x3f/x3f_utils_patched.cpp.o
 
 # target to build an object file
 src/x3f/x3f_utils_patched.cpp.o:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_utils_patched.cpp.o
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_utils_patched.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_utils_patched.cpp.o
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_utils_patched.cpp.o
 .PHONY : src/x3f/x3f_utils_patched.cpp.o
 
 src/x3f/x3f_utils_patched.i: src/x3f/x3f_utils_patched.cpp.i
@@ -2157,8 +2157,8 @@ src/x3f/x3f_utils_patched.i: src/x3f/x3f_utils_patched.cpp.i
 
 # target to preprocess a source file
 src/x3f/x3f_utils_patched.cpp.i:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_utils_patched.cpp.i
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_utils_patched.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_utils_patched.cpp.i
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_utils_patched.cpp.i
 .PHONY : src/x3f/x3f_utils_patched.cpp.i
 
 src/x3f/x3f_utils_patched.s: src/x3f/x3f_utils_patched.cpp.s
@@ -2166,8 +2166,8 @@ src/x3f/x3f_utils_patched.s: src/x3f/x3f_utils_patched.cpp.s
 
 # target to generate assembly for a file
 src/x3f/x3f_utils_patched.cpp.s:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_utils_patched.cpp.s
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_utils_patched.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw.dir/build.make LibRaw/CMakeFiles/raw.dir/src/x3f/x3f_utils_patched.cpp.s
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(MAKE) $(MAKESILENT) -f LibRaw/CMakeFiles/raw_r.dir/build.make LibRaw/CMakeFiles/raw_r.dir/src/x3f/x3f_utils_patched.cpp.s
 .PHONY : src/x3f/x3f_utils_patched.cpp.s
 
 # Help Target
@@ -2416,7 +2416,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -P /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/crislt/UA/IC/Prac3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -P /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

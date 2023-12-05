@@ -1,7 +1,7 @@
-/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/CMakeFiles/unraw.dir
-/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/CMakeFiles/edit_cache.dir
-/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/CMakeFiles/rebuild_cache.dir
-/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/LibRaw/CMakeFiles/raw.dir
-/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/LibRaw/CMakeFiles/raw_r.dir
-/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/LibRaw/CMakeFiles/edit_cache.dir
-/home/crislt/UA/IC/Prac3/Lab3_source/unraw/build/LibRaw/CMakeFiles/rebuild_cache.dir
+/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/CMakeFiles/unraw.dir
+/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/CMakeFiles/edit_cache.dir
+/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/CMakeFiles/rebuild_cache.dir
+/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/LibRaw/CMakeFiles/raw.dir
+/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/LibRaw/CMakeFiles/raw_r.dir
+/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/LibRaw/CMakeFiles/edit_cache.dir
+/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/build/LibRaw/CMakeFiles/rebuild_cache.dir

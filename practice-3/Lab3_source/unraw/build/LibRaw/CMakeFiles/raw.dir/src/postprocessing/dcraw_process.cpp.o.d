@@ -1,7 +1,7 @@
 LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.o: \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/src/postprocessing/dcraw_process.cpp \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/src/postprocessing/dcraw_process.cpp \
  /usr/include/stdc-predef.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/src/postprocessing/../../internal/libraw_cxx_defs.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/src/postprocessing/../../internal/libraw_cxx_defs.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -111,7 +111,7 @@ LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/libraw/libraw.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -132,15 +132,15 @@ LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/libraw/libraw_datastream.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/libraw/libraw_const.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/libraw/libraw_types.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_datastream.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_const.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_types.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/libraw/libraw_version.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_version.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h \
@@ -229,10 +229,10 @@ LibRaw/CMakeFiles/raw.dir/src/postprocessing/dcraw_process.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/libraw/libraw_internal.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/libraw/libraw_alloc.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/internal/libraw_internal_funcs.h \
- /home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw/internal/defines.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_internal.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_alloc.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/internal/libraw_internal_funcs.h \
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/internal/defines.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \

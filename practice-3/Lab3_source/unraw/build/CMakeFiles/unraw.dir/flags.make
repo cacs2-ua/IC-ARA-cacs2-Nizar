@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/crislt/UA/IC/Prac3/Lab3_source/unraw/LibRaw -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw -isystem /usr/include/opencv4
 
 CXX_FLAGS =  -fopenmp -fopenmp
 

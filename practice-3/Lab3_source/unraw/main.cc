@@ -65,6 +65,7 @@ void gammaCurve(unsigned short *curve, double power)
         g[5] = 1 / (g[1] * SQR(g[3]) / 2 + 1 - g[2] - g[3] -
             g[2] * g[3] * (log(g[3]) - 1)) -
            1;
+    #pragma omp parallel for private(r)
     for (i = 0; i < 0x10000; i++)
     {
         curve[i] = 0xffff;
@@ -151,39 +152,40 @@ void debayer(LibRaw* processor, cv::Mat &out)
     int orientation = processor->imgdata.sizes.flip;
     
     // create a buffer of ushorts containing the single channel bayer pattern
-    std::vector<ushort> bayerData;
-    for ( int y = 0; y < height; y++ )
+    //std::vector<ushort> bayerData;
+    cv::Mat imgBayer(height, width, CV_16UC1);
+    #pragma omp parallel for collapse(2)
+    for (int y = 0; y < height; y++)
     {
-        for ( int x = 0; x < width; x++ )
+        for (int x = 0; x < width; x++)
         {
-            // get pixel idx
+            // Get pixel index
             int idx = y * width + x;
 
-            // each pixel is an array of 4 shorts rgbg
+            // Each pixel is an array of 4 shorts rgbg
             ushort *rgbg = processor->imgdata.image[idx];
 
-            // even rows are RGRGRG..., odds are GBGBGB...
-            // even rows are RGRGRG..., get red if x is even or green if odd
-            if (y % 2 == 0)
+            // Determine the pixel value based on Bayer pattern
+            ushort pixelValue;
+            if (y % 2 == 0) // Even rows
             {
-                bool red = x % 2 == 0;
-                bayerData.push_back(rgbg[red ? 0 : 1]);
+                pixelValue = rgbg[x % 2 == 0 ? 0 : 1]; // Red if x is even, green if odd
             }
-            // odd rows are GBGBGB..., get green if x is even or blue if odd
-            else
+            else // Odd rows
             {
-                bool green = x % 2 == 0;
-                bayerData.push_back(rgbg[green ? 3 : 2]);
+                pixelValue = rgbg[x % 2 == 0 ? 3 : 2]; // Green if x is even, blue if odd
             }
+
+            imgBayer.at<ushort>(y, x) = pixelValue;
         }
     }
 
     // create an OpenCV matrix with the bayer pattern
-    cv::Mat imgBayer(height, width, CV_16UC1, bayerData.data());
-    cv::Mat imgDeBayer;
+    //cv::Mat imgBayer(height, width, CV_16UC1, bayerData.data());
+    //cv::Mat imgDeBayer;
     // apply the debayering algorithm
-    cv::cvtColor(imgBayer, imgDeBayer, cv::COLOR_BayerBG2BGR);
-    out = imgDeBayer;
+    cv::cvtColor(imgBayer, out, cv::COLOR_BayerBG2BGR);
+    //out = imgDeBayer;
     
     switch(orientation)
     {
