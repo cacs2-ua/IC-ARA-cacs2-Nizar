@@ -222,17 +222,34 @@ void debayer(LibRaw* processor, cv::Mat &out)
 
 void sharpening(cv::Mat& in, cv::Mat& out, float sigma, float amount)
 {
-	auto start = high_resolution_clock::now();
-	
-    cv::Mat blurry;
-    // create a blurred image
-    cv::GaussianBlur(in, blurry, cv::Size(), sigma);
-    out = in * (1 + amount) - blurry*amount;
-    
-    auto end = high_resolution_clock::now();
-	auto elapsed_ms = duration_cast<milliseconds>(end - start);
+    auto start = high_resolution_clock::now();
 
-	cout << "Sharpening: " << elapsed_ms.count()<<"ms"<<endl;
+    cv::Mat blurry;
+    // Create a blurred image
+    cv::GaussianBlur(in, blurry, cv::Size(), sigma);
+
+    // Ensure out has the same size and type as in
+    out.create(in.size(), in.type());
+
+    // Parallelize this loop with OpenMP
+    #pragma omp parallel for collapse(2)
+    for (int y = 0; y < in.rows; ++y)
+    {
+        for (int x = 0; x < in.cols; ++x)
+        {
+            for (int c = 0; c < in.channels(); ++c)
+            {
+                out.at<cv::Vec3b>(y, x)[c] = cv::saturate_cast<uchar>(
+                    in.at<cv::Vec3b>(y, x)[c] * (1 + amount) - blurry.at<cv::Vec3b>(y, x)[c] * amount
+                );
+            }
+        }
+    }
+
+    auto end = high_resolution_clock::now();
+    auto elapsed_ms = duration_cast<milliseconds>(end - start);
+
+    cout << "Sharpening: " << elapsed_ms.count() << "ms" << endl;
 }
 
 void enhanceDetails(cv::Mat &in, cv::Mat &out, float sigma, float amount)
