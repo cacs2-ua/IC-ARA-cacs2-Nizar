@@ -350,6 +350,9 @@ CMakeFiles/unraw.dir/main.cc.o: \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+ /usr/include/c++/11/future /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_futex.h \
+ /usr/include/c++/11/bits/std_thread.h \
  /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw.h \
  /usr/include/memory.h \
  /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_datastream.h \
@@ -363,7 +366,4 @@ CMakeFiles/unraw.dir/main.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
  /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_internal.h \
- /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_alloc.h \
- /usr/include/c++/11/future /usr/include/c++/11/condition_variable \
- /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_futex.h \
- /usr/include/c++/11/bits/std_thread.h
+ /home/crislt/UA/IC/Github/IC-ARA-cacs2-Nizar/practice-3/Lab3_source/unraw/LibRaw/libraw/libraw_alloc.h

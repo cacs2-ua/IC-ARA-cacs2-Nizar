@@ -4,17 +4,14 @@
 #include <iostream>
 #include <chrono>
 #include <opencv2/opencv.hpp>
-
+#include <future>
 #include "libraw/libraw.h"
-
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
-
 #include <algorithm>
 #include <future>
-
 #include <omp.h>
-
+#include <vector>
 #define SQR(x) ((x) * (x))
 
 using namespace std;
@@ -253,6 +250,24 @@ void sharpening(cv::Mat& in, cv::Mat& out, float sigma, float amount)
     cout << "Sharpening: " << elapsed_ms.count() << "ms" << endl;
 }
 
+
+
+
+void processSlice(cv::Mat& inFloat, cv::Mat& blur, int startRow, int endRow, int cols, float amount) {
+    for (int i = startRow; i < endRow; ++i) {
+        float* pIn = inFloat.ptr<float>(i);
+        float* pBlur = blur.ptr<float>(i);
+        for (int j = 0; j < cols; ++j) {
+            for (int c = 0; c < 3; c++) {
+                float im = pIn[j * 3 + c];
+                float b = pBlur[j * 3 + c];
+                float d = im - b;
+                pBlur[j * 3 + c] = b + d * amount;
+            }
+        }
+    }
+}
+
 void enhanceDetails(cv::Mat &in, cv::Mat &out, float sigma, float amount)
 {
     auto start = high_resolution_clock::now();
@@ -263,40 +278,29 @@ void enhanceDetails(cv::Mat &in, cv::Mat &out, float sigma, float amount)
     // Create a blurred image
     cv::GaussianBlur(inFloat, blur, cv::Size(), sigma);
 
-    // Parallelize processing by dividing the image into horizontal slices
-    int numThreads = omp_get_max_threads(); // Get the maximum number of threads
-    int sliceHeight = in.rows / numThreads; // Calculate the height of each slice
+    int numThreads = std::thread::hardware_concurrency();
+    int sliceHeight = in.rows / numThreads;
 
-    #pragma omp parallel for
-    for (int t = 0; t < numThreads; ++t)
-    {
+    std::vector<std::future<void>> futures;
+
+    for (int t = 0; t < numThreads; ++t) {
         int startRow = t * sliceHeight;
         int endRow = (t == numThreads - 1) ? in.rows : startRow + sliceHeight;
+        futures.push_back(std::async(std::launch::async, processSlice, std::ref(inFloat), std::ref(blur), startRow, endRow, in.cols, amount));
+    }
 
-        for (int i = startRow; i < endRow; ++i)
-        {
-            float* pIn = inFloat.ptr<float>(i);
-            float* pBlur = blur.ptr<float>(i);
-            for (int j = 0; j < in.cols; ++j)
-            {
-                for (int c = 0; c < 3; c++)
-                {
-                    float im = pIn[j * 3 + c];
-                    float b = pBlur[j * 3 + c];
-                    float d = im - b;
-                    pBlur[j * 3 + c] = b + d * amount;
-                }
-            }
-        }
+    // Wait for all tasks to complete
+    for (auto& f : futures) {
+        f.get();
     }
 
     // Convert back to 16 bit
     blur.convertTo(out, CV_16U, 65535);
 
     auto end = high_resolution_clock::now();
-    auto elapsed_ms = duration_cast<milliseconds>(end - start);
+    auto elapsed_ms = duration_cast<milliseconds>(end - start).count();
 
-    cout << "Enhanced details: " << elapsed_ms.count() << "ms" << endl;
+    cout << "Enhanced details: " << elapsed_ms << "ms" << endl;
 }
 
 
