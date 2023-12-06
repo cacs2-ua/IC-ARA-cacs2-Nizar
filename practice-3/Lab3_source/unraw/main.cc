@@ -365,34 +365,38 @@ void gammaCorrection(cv::Mat& in, cv::Mat& out, float a, float b, float gamma)
 
 void colorBalance(cv::Mat& in, cv::Mat& out, float percent) {
 
-	auto start = high_resolution_clock::now();
+    auto start = high_resolution_clock::now();
 
     float half_percent = percent / 200.0f;
 
     std::vector<cv::Mat> tmpsplit; 
-    cv::split(in,tmpsplit);
-    int max = (in.depth() == CV_8U ? 1<<8 : 1<<16) - 1;
-    for(int i=0;i<3;i++) 
+    cv::split(in, tmpsplit);
+    int max = (in.depth() == CV_8U ? 1 << 8 : 1 << 16) - 1;
+
+    // Parallelize this loop with OpenMP
+    #pragma omp parallel for
+    for (int i = 0; i < 3; i++) 
     {
-        // find the low and high precentile values (based on the input percentile)
-        cv::Mat flat; tmpsplit[i].reshape(1,1).copyTo(flat);
-        cv::sort(flat,flat,cv::SORT_EVERY_ROW | cv::SORT_ASCENDING);
-        int lowval = flat.at<ushort>(cvFloor(((float)flat.cols) * half_percent));
-        int highval = flat.at<ushort>(cvCeil(((float)flat.cols) * (1.0 - half_percent)));
+        // Find the low and high percentile values (based on the input percentile)
+        cv::Mat flat;
+        tmpsplit[i].reshape(1, 1).copyTo(flat);
+        cv::sort(flat, flat, cv::SORT_EVERY_ROW | cv::SORT_ASCENDING);
+        int lowval = flat.at<ushort>(cvFloor(static_cast<float>(flat.cols) * half_percent));
+        int highval = flat.at<ushort>(cvCeil(static_cast<float>(flat.cols) * (1.0 - half_percent)));
 
-        // saturate below the low percentile and above the high percentile
-        tmpsplit[i].setTo(lowval,tmpsplit[i] < lowval);
-        tmpsplit[i].setTo(highval,tmpsplit[i] > highval);
+        // Saturate below the low percentile and above the high percentile
+        tmpsplit[i].setTo(lowval, tmpsplit[i] < lowval);
+        tmpsplit[i].setTo(highval, tmpsplit[i] > highval);
 
-        // scale the channel
-        cv::normalize(tmpsplit[i],tmpsplit[i],0,max,cv::NORM_MINMAX);
+        // Scale the channel
+        cv::normalize(tmpsplit[i], tmpsplit[i], 0, max, cv::NORM_MINMAX);
     }
-    cv::merge(tmpsplit,out);
-    
-    auto end = high_resolution_clock::now();
-	auto elapsed_ms = duration_cast<milliseconds>(end - start);
+    cv::merge(tmpsplit, out);
 
-	cout<<"Color balance: "<< elapsed_ms.count()<<"ms"<<endl;
+    auto end = high_resolution_clock::now();
+    auto elapsed_ms = duration_cast<milliseconds>(end - start);
+
+    cout << "Color balance: " << elapsed_ms.count() << "ms" << endl;
 }
 
 void screenMerge(cv::Mat &in1, cv::Mat &in2, cv::Mat &out)
