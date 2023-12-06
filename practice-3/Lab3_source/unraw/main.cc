@@ -404,20 +404,21 @@ void screenMerge(cv::Mat &in1, cv::Mat &in2, cv::Mat &out)
     auto start = high_resolution_clock::now();
     
     cv::Mat inFloat1, inFloat2;
-    // convert to float32 to avoid overflow
+    // Convert to float32 to avoid overflow
     in1.convertTo(inFloat1, CV_32F, 1.0/65535);
     in2.convertTo(inFloat2, CV_32F, 1.0/65535);
     cv::Mat tmp = cv::Mat::zeros(inFloat1.size(), inFloat1.type());
-    float* pIn1, *pIn2, *pTmp;
-    // apply the screen mode merge
-    for(int i = 0; i < in1.rows; ++i)
+
+    // Parallelize this loop with OpenMP
+    #pragma omp parallel for
+    for (int i = 0; i < in1.rows; ++i)
     {
-        pIn1 = inFloat1.ptr<float>(i);
-        pIn2 = inFloat2.ptr<float>(i);
-        pTmp = tmp.ptr<float>(i);
+        float* pIn1 = inFloat1.ptr<float>(i);
+        float* pIn2 = inFloat2.ptr<float>(i);
+        float* pTmp = tmp.ptr<float>(i);
         for (int j = 0; j < in1.cols; ++j)
         {
-            for(int c = 0; c < 3; c++)
+            for (int c = 0; c < 3; c++)
             {
                 float im = pIn1[j * 3 + c];
                 float m = pIn2[j * 3 + c];
@@ -428,13 +429,15 @@ void screenMerge(cv::Mat &in1, cv::Mat &in2, cv::Mat &out)
     tmp.convertTo(out, CV_16U, 65535);
     
     auto end = high_resolution_clock::now();
-	auto elapsed_ms = duration_cast<milliseconds>(end - start);
+    auto elapsed_ms = duration_cast<milliseconds>(end - start);
 
-	cout<<"Screen mode merge: "<< elapsed_ms.count()<<"ms"<<endl;
+    cout << "Screen mode merge: " << elapsed_ms.count() << "ms" << endl;
 }
 
 int main(int argc, char *argv[])
 {
+    auto start = high_resolution_clock::now();
+
     int ret;
     if (argc < 3)
     {
@@ -488,5 +491,12 @@ int main(int argc, char *argv[])
     // save final image
     cv::imwrite(outputFile, image);
     
+
+    auto end = high_resolution_clock::now();
+
+    // Calculate the total execution time
+    auto duration = duration_cast<milliseconds>(end - start).count();
+    cout << "Total execution time: " << duration << "ms" << endl;
+
     return 0;
 }
