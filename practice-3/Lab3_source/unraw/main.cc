@@ -3,6 +3,7 @@
 #include <math.h>
 #include <iostream>
 #include <chrono>
+#include <opencv2/opencv.hpp>
 
 #include "libraw/libraw.h"
 
@@ -254,41 +255,52 @@ void sharpening(cv::Mat& in, cv::Mat& out, float sigma, float amount)
 
 void enhanceDetails(cv::Mat &in, cv::Mat &out, float sigma, float amount)
 {
-	auto start = high_resolution_clock::now();
-	
+    auto start = high_resolution_clock::now();
+
     cv::Mat blur, inFloat;
-    // convert to float32
-    in.convertTo(inFloat, CV_32F, 1.0/65535);
-    // create a blurred image
+    // Convert to float32
+    in.convertTo(inFloat, CV_32F, 1.0 / 65535);
+    // Create a blurred image
     cv::GaussianBlur(inFloat, blur, cv::Size(), sigma);
 
-    // for each pixel, extract the higher frequencies by substracting 
-    // the blurred image and multiply it to increase details, then add
-    // the blurred image again to reconstruct the image
-    float* pIn, *pBlur;
-    for(int i = 0; i < in.rows; ++i)
+    // Parallelize processing by dividing the image into horizontal slices
+    int numThreads = omp_get_max_threads(); // Get the maximum number of threads
+    int sliceHeight = in.rows / numThreads; // Calculate the height of each slice
+
+    #pragma omp parallel for
+    for (int t = 0; t < numThreads; ++t)
     {
-        pIn = inFloat.ptr<float>(i);
-        pBlur = blur.ptr<float>(i);
-        for (int j = 0; j < in.cols; ++j)
+        int startRow = t * sliceHeight;
+        int endRow = (t == numThreads - 1) ? in.rows : startRow + sliceHeight;
+
+        for (int i = startRow; i < endRow; ++i)
         {
-            for(int c = 0;c<3;c++)
+            float* pIn = inFloat.ptr<float>(i);
+            float* pBlur = blur.ptr<float>(i);
+            for (int j = 0; j < in.cols; ++j)
             {
-                float im = pIn[j*3+c];
-                float b = pBlur[j*3+c];
-                float d = im - b;
-                pBlur[j*3+c] = b + d*amount;
+                for (int c = 0; c < 3; c++)
+                {
+                    float im = pIn[j * 3 + c];
+                    float b = pBlur[j * 3 + c];
+                    float d = im - b;
+                    pBlur[j * 3 + c] = b + d * amount;
+                }
             }
         }
     }
-    // convert back to 16 bit
-    blur.convertTo(out, CV_16U, 65535);
-    
-    auto end = high_resolution_clock::now();
-	auto elapsed_ms = duration_cast<milliseconds>(end - start);
 
-	cout << "Enhanced details: " << elapsed_ms.count()<<"ms"<<endl;
+    // Convert back to 16 bit
+    blur.convertTo(out, CV_16U, 65535);
+
+    auto end = high_resolution_clock::now();
+    auto elapsed_ms = duration_cast<milliseconds>(end - start);
+
+    cout << "Enhanced details: " << elapsed_ms.count() << "ms" << endl;
 }
+
+
+
 void bloom(cv::Mat &in, cv::Mat &out, float sigma, float threshold)
 {
 	auto start = high_resolution_clock::now();
