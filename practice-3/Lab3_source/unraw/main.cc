@@ -253,7 +253,7 @@ void sharpening(cv::Mat& in, cv::Mat& out, float sigma, float amount)
 
 
 
-void processSlice(cv::Mat& inFloat, cv::Mat& blur, int startRow, int endRow, int cols, float amount) {
+void processSliceEnhanced(cv::Mat& inFloat, cv::Mat& blur, int startRow, int endRow, int cols, float amount) {
     for (int i = startRow; i < endRow; ++i) {
         float* pIn = inFloat.ptr<float>(i);
         float* pBlur = blur.ptr<float>(i);
@@ -280,13 +280,12 @@ void enhanceDetails(cv::Mat &in, cv::Mat &out, float sigma, float amount)
 
     int numThreads = std::thread::hardware_concurrency();
     int sliceHeight = in.rows / numThreads;
-
     std::vector<std::future<void>> futures;
 
     for (int t = 0; t < numThreads; ++t) {
         int startRow = t * sliceHeight;
         int endRow = (t == numThreads - 1) ? in.rows : startRow + sliceHeight;
-        futures.push_back(std::async(std::launch::async, processSlice, std::ref(inFloat), std::ref(blur), startRow, endRow, in.cols, amount));
+        futures.push_back(std::async(std::launch::async, processSliceEnhanced, std::ref(inFloat), std::ref(blur), startRow, endRow, in.cols, amount));
     }
 
     // Wait for all tasks to complete
