@@ -335,32 +335,32 @@ void bloom(cv::Mat &in, cv::Mat &out, float sigma, float threshold)
 
 void gammaCorrection(cv::Mat& in, cv::Mat& out, float a, float b, float gamma)
 {
-	auto start = high_resolution_clock::now();
-	
+    auto start = high_resolution_clock::now();
+
     cv::Mat tmp = cv::Mat::zeros(in.size(), in.type());
-	unsigned short curve[0x10000];
-    // create the gamma LUT
+    unsigned short curve[0x10000];
+    // Create the gamma LUT
     gammaCurve(curve, gamma);
-    
-    unsigned short* p, *tp;
-    // for each pixel, apply the computed LUT
-    for(int i = 0; i < in.rows; ++i)
+
+    // Parallelize this loop with OpenMP
+    #pragma omp parallel for
+    for (int i = 0; i < in.rows; ++i)
     {
-        p = in.ptr<unsigned short>(i);
-        tp = tmp.ptr<unsigned short>(i);
+        unsigned short* p = in.ptr<unsigned short>(i);
+        unsigned short* tp = tmp.ptr<unsigned short>(i);
         for (int j = 0; j < in.cols; ++j)
         {
-            tp[j*3] = a * curve[p[j*3]] + b;
-            tp[j*3+1] = a * curve[p[j*3+1]] + b;
-            tp[j*3+2] = a * curve[p[j*3+2]] + b;
+            tp[j * 3] = a * curve[p[j * 3]] + b;
+            tp[j * 3 + 1] = a * curve[p[j * 3 + 1]] + b;
+            tp[j * 3 + 2] = a * curve[p[j * 3 + 2]] + b;
         }
     }
     out = tmp;
-    
-    auto end = high_resolution_clock::now();
-	auto elapsed_ms = duration_cast<milliseconds>(end - start);
 
-	cout<<"Gamma correction: "<<elapsed_ms.count()<<"ms"<<endl;
+    auto end = high_resolution_clock::now();
+    auto elapsed_ms = duration_cast<milliseconds>(end - start);
+
+    cout << "Gamma correction: " << elapsed_ms.count() << "ms" << endl;
 }
 
 void colorBalance(cv::Mat& in, cv::Mat& out, float percent) {
