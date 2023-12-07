@@ -59,6 +59,8 @@
         "complex": "cpp",
         "cstring": "cpp",
         "map": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "set": "cpp",
+        "iomanip": "cpp"
     }
 }
