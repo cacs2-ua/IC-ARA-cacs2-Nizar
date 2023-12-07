@@ -484,9 +484,19 @@ int main(int argc, char *argv[])
     equalization(image, image, 0.0, 1.0, 0.5);
     cv::Mat enhanced, bloomed;
     // enhance high frequency details
-    enhanceDetails(image, enhanced, 20, 1.25);
+    //enhanceDetails(image, enhanced, 20, 1.25);
     // compute bloom mask
-    bloom(image, bloomed, 70, 0.9);
+    //bloom(image, bloomed, 70, 0.9);
+    auto enhanceFuture = std::async(std::launch::async, [&]() {
+        enhanceDetails(image, enhanced, 20, 1.25);
+    });
+    auto bloomFuture = std::async(std::launch::async, [&]() {
+        bloom(image, bloomed, 70, 0.9);
+    });
+
+    // Wait for the results
+    enhanceFuture.get();
+    bloomFuture.get();
     // combine enhanced details with bloom mask
     screenMerge(enhanced, bloomed, image);
     // convert to 8 bit image
